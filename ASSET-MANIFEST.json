@@ -1,0 +1,175 @@
+{
+  "version": "28.65",
+  "host": "https://specsen.github.io/assets",
+  "repository": "specsen/assets",
+  "files": [
+    {
+      "path": "/.nojekyll",
+      "bytes": 0
+    },
+    {
+      "path": "/README-V28.65-GITHUB-PAGES.txt",
+      "bytes": 203
+    },
+    {
+      "path": "/README.md",
+      "bytes": 410
+    },
+    {
+      "path": "/index.html",
+      "bytes": 286
+    },
+    {
+      "path": "/models/cargo-v14/unit_epal1_1200x800x144_v14.glb",
+      "bytes": 10076
+    },
+    {
+      "path": "/models/cargo-v14/unit_epal_gitterbox_1240x835x970_v14.glb",
+      "bytes": 41088
+    },
+    {
+      "path": "/models/cargo-v14/unit_game_fragile_1200x800x850_600kg_v14.glb",
+      "bytes": 12200
+    },
+    {
+      "path": "/models/cargo-v14/unit_game_largecrate_2800x2000x1800_11500kg_v14.glb",
+      "bytes": 22124
+    },
+    {
+      "path": "/models/cargo-v14/unit_game_woodcrate_1200x800x850_850kg_v14.glb",
+      "bytes": 15448
+    },
+    {
+      "path": "/models/vehicles/common_cargo_v10.glb",
+      "bytes": 59436
+    },
+    {
+      "path": "/models/vehicles/common_exterior_clean_v10.glb",
+      "bytes": 72420
+    },
+    {
+      "path": "/models/vehicles/vehicle_box_trailer_v10.glb",
+      "bytes": 290336
+    },
+    {
+      "path": "/models/vehicles/vehicle_container40_v10.glb",
+      "bytes": 87412
+    },
+    {
+      "path": "/models/vehicles/vehicle_curtainsider_v10.glb",
+      "bytes": 85856
+    },
+    {
+      "path": "/models/warehouse/rhenus_logo_3d_v2854.glb",
+      "bytes": 174404
+    },
+    {
+      "path": "/textures/environment/rhenus_daylight_v2856.env",
+      "bytes": 1024412
+    },
+    {
+      "path": "/textures/sky/realistic_sky_360.png",
+      "bytes": 1824366
+    },
+    {
+      "path": "/textures/sky/reference_sky_v2862.png",
+      "bytes": 1728293
+    },
+    {
+      "path": "/textures/warehouse/real/dark_coated_steel_real_albedo.jpg",
+      "bytes": 38115
+    },
+    {
+      "path": "/textures/warehouse/real/dark_coated_steel_real_normal_gl.png",
+      "bytes": 35444
+    },
+    {
+      "path": "/textures/warehouse/real/dark_coated_steel_real_roughness.png",
+      "bytes": 17983
+    },
+    {
+      "path": "/textures/warehouse/real/dock_concrete_real_albedo.jpg",
+      "bytes": 35630
+    },
+    {
+      "path": "/textures/warehouse/real/dock_concrete_real_normal_gl.png",
+      "bytes": 25824
+    },
+    {
+      "path": "/textures/warehouse/real/dock_concrete_real_roughness.png",
+      "bytes": 16808
+    },
+    {
+      "path": "/textures/warehouse/reference/v2859/grass_albedo.jpg",
+      "bytes": 41877
+    },
+    {
+      "path": "/textures/warehouse/reference/v2859/grass_normal.png",
+      "bytes": 62492
+    },
+    {
+      "path": "/textures/warehouse/reference/v2859/grass_roughness.png",
+      "bytes": 1302
+    },
+    {
+      "path": "/textures/warehouse/reference/v2859/paver_albedo.jpg",
+      "bytes": 42080
+    },
+    {
+      "path": "/textures/warehouse/reference/v2859/paver_normal.png",
+      "bytes": 104873
+    },
+    {
+      "path": "/textures/warehouse/reference/v2859/paver_roughness.png",
+      "bytes": 1302
+    },
+    {
+      "path": "/textures/warehouse/reference/v2862/facade_clean_albedo.jpg",
+      "bytes": 14501
+    },
+    {
+      "path": "/textures/warehouse/reference/v2862/facade_clean_arm.png",
+      "bytes": 357314
+    },
+    {
+      "path": "/textures/warehouse/reference/v2862/facade_clean_normal.png",
+      "bytes": 468750
+    },
+    {
+      "path": "/textures/warehouse/reference/v2862/grass_billboard.png",
+      "bytes": 423059
+    },
+    {
+      "path": "/textures/warehouse/reference/v2862/shrub_billboard.png",
+      "bytes": 470462
+    },
+    {
+      "path": "/textures/warehouse/reference/v2862/tree_billboard.png",
+      "bytes": 378852
+    },
+    {
+      "path": "/textures/warehouse/reference/v2862/tree_small_billboard.png",
+      "bytes": 373364
+    },
+    {
+      "path": "/textures/warehouse_ground/asphalt_archviz_albedo_1536.jpg",
+      "bytes": 193412
+    },
+    {
+      "path": "/textures/warehouse_ground/asphalt_archviz_normal_1024.png",
+      "bytes": 1392884
+    },
+    {
+      "path": "/textures/warehouse_ground/asphalt_archviz_roughness_1024.jpg",
+      "bytes": 34636
+    },
+    {
+      "path": "/textures/warehouse_ground/yard_detail_rgba_1536.png",
+      "bytes": 34255
+    },
+    {
+      "path": "/textures/warehouse_ground/yard_wetness_1024.png",
+      "bytes": 115928
+    }
+  ]
+}
