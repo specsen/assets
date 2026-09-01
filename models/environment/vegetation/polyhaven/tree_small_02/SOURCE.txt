@@ -1,0 +1,5 @@
+Poly Haven asset source:
+https://polyhaven.com/a/tree_small_02
+
+Expected mirrored runtime filename:
+polyhaven_tree_small_02.glb

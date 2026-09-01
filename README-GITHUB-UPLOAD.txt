@@ -1,14 +1,14 @@
-RHENUS GITHUB ASSETS – V28.90 ENTRANCE / PARKING
-=================================================
-Upload-Inhalt für:
-https://raw.githubusercontent.com/specsen/assets/main/
+RHENUS GITHUB ASSETS – V28.94 POLYHAVEN PARKING TREES
+=====================================================
+Dieses Paket definiert den Zielpfad für das Poly-Haven-Baumasset,
+das in V28.94 hinter dem Parkplatz als Abschlussreihe verwendet wird.
 
-Zielpfad:
-models/environment/site/
+Poly-Haven-Quelle:
+https://polyhaven.com/a/tree_small_02
 
-Dateien:
-- visitor_sedan_real3d.glb
-- visitor_hatchback_real3d.glb
-- service_van_real3d.glb
+Zielpfad in specsen/assets:
+models/environment/vegetation/polyhaven/tree_small_02/polyhaven_tree_small_02.glb
 
-Die Widget-Version V28.90 lädt diese Dateien ausschließlich über den GitHub-Assetpfad.
+Hinweis:
+Das Widget V28.94 ist auf genau diesen GitHub-Pfad verdrahtet.
+Lege dort das aus Poly Haven übernommene GLB ab.
