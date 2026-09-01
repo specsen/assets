@@ -1,0 +1,13 @@
+{
+  "version": "V28.79",
+  "assetRoot": "https://raw.githubusercontent.com/specsen/assets/main",
+  "assets": [
+    {"id":"shrub_a","path":"models/environment/vegetation/shrub_photo_volume_a.glb","kind":"shrub","runtime":"photo-volume","embeddedTexture":true},
+    {"id":"shrub_b","path":"models/environment/vegetation/shrub_photo_volume_b.glb","kind":"shrub","runtime":"photo-volume","embeddedTexture":true},
+    {"id":"grass_a","path":"models/environment/vegetation/ornamental_grass_photo_volume_a.glb","kind":"ornamental-grass","runtime":"photo-volume","embeddedTexture":true},
+    {"id":"grass_b","path":"models/environment/vegetation/ornamental_grass_photo_volume_b.glb","kind":"ornamental-grass","runtime":"photo-volume","embeddedTexture":true},
+    {"id":"groundcover","path":"models/environment/vegetation/groundcover_photo_volume.glb","kind":"groundcover","runtime":"photo-volume","embeddedTexture":true},
+    {"id":"small_tree","path":"models/environment/vegetation/small_deciduous_tree_photo_volume.glb","kind":"small-tree","runtime":"photo-volume","embeddedTexture":true},
+    {"id":"pine_lod2","path":"models/environment/vegetation/trees_pine_realtime_lod2_v2872.glb","kind":"tree","runtime":"geometry","optional":true,"license":"CC Attribution"}
+  ]
+}

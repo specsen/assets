@@ -1,0 +1,149 @@
+[
+  {
+    "file": "models/environment/vegetation/shrub_photo_volume_a.glb",
+    "bytes": 252744,
+    "magic": true,
+    "version": 2,
+    "declared_length": 252744,
+    "trimesh_load": true,
+    "geometry_count": 1,
+    "bounds": [
+      [
+        -0.800000011920929,
+        0.0,
+        -0.800000011920929
+      ],
+      [
+        0.800000011920929,
+        1.399999976158142,
+        0.800000011920929
+      ]
+    ]
+  },
+  {
+    "file": "models/environment/vegetation/shrub_photo_volume_b.glb",
+    "bytes": 243520,
+    "magic": true,
+    "version": 2,
+    "declared_length": 243520,
+    "trimesh_load": true,
+    "geometry_count": 1,
+    "bounds": [
+      [
+        -0.625,
+        0.0,
+        -0.625
+      ],
+      [
+        0.625,
+        1.0499999523162842,
+        0.625
+      ]
+    ]
+  },
+  {
+    "file": "models/environment/vegetation/ornamental_grass_photo_volume_a.glb",
+    "bytes": 418768,
+    "magic": true,
+    "version": 2,
+    "declared_length": 418768,
+    "trimesh_load": true,
+    "geometry_count": 1,
+    "bounds": [
+      [
+        -0.675000011920929,
+        0.0,
+        -0.675000011920929
+      ],
+      [
+        0.675000011920929,
+        1.2000000476837158,
+        0.675000011920929
+      ]
+    ]
+  },
+  {
+    "file": "models/environment/vegetation/ornamental_grass_photo_volume_b.glb",
+    "bytes": 413736,
+    "magic": true,
+    "version": 2,
+    "declared_length": 413736,
+    "trimesh_load": true,
+    "geometry_count": 1,
+    "bounds": [
+      [
+        -0.5249999761581421,
+        0.0,
+        -0.5249999761581421
+      ],
+      [
+        0.5249999761581421,
+        0.9200000166893005,
+        0.5249999761581421
+      ]
+    ]
+  },
+  {
+    "file": "models/environment/vegetation/small_deciduous_tree_photo_volume.glb",
+    "bytes": 283956,
+    "magic": true,
+    "version": 2,
+    "declared_length": 283956,
+    "trimesh_load": true,
+    "geometry_count": 1,
+    "bounds": [
+      [
+        -1.7999999523162842,
+        0.0,
+        -1.5588457584381104
+      ],
+      [
+        1.7999999523162842,
+        4.400000095367432,
+        1.5588457584381104
+      ]
+    ]
+  },
+  {
+    "file": "models/environment/vegetation/groundcover_photo_volume.glb",
+    "bytes": 42260,
+    "magic": true,
+    "version": 2,
+    "declared_length": 42260,
+    "trimesh_load": true,
+    "geometry_count": 1,
+    "bounds": [
+      [
+        -0.5249999761581421,
+        0.0,
+        -0.5249999761581421
+      ],
+      [
+        0.5249999761581421,
+        0.47999998927116394,
+        0.5249999761581421
+      ]
+    ]
+  },
+  {
+    "file": "models/environment/vegetation/trees_pine_realtime_lod2_v2872.glb",
+    "bytes": 2014308,
+    "magic": true,
+    "version": 2,
+    "declared_length": 2014308,
+    "trimesh_load": true,
+    "geometry_count": 8,
+    "bounds": [
+      [
+        -3.5643701553344727,
+        -4.316684722900391,
+        -0.8082988858222961
+      ],
+      [
+        3.8017914295196533,
+        3.880162239074707,
+        16.3071231842041
+      ]
+    ]
+  }
+]

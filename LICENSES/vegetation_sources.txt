@@ -1,0 +1,37 @@
+RHENUS V28.79 – VEGETATION SOURCE / LICENSE NOTES
+=================================================
+
+Photo-Volume Assets
+-------------------
+shrub_photo_volume_a.glb
+shrub_photo_volume_b.glb
+ornamental_grass_photo_volume_a.glb
+ornamental_grass_photo_volume_b.glb
+groundcover_photo_volume.glb
+small_deciduous_tree_photo_volume.glb
+
+Diese Dateien wurden als optimierte Echtzeit-GLBs aus bereits im RHENUS-Projekt
+vorhandener bzw. vom Nutzer bereitgestellter Referenz-/Vegetationsbildbasis
+erzeugt. Die verwendeten PNGs sind im Paket enthalten und zusätzlich in die GLBs
+eingebettet. Für diese Projektderivate wird hier keine externe CC0-Herkunft
+behauptet.
+
+Optionaler Geometrie-Baum
+-------------------------
+trees_pine_realtime_lod2_v2872.glb
+
+Original: "Pine trees pack (lowpoly, game ready, LODs)"
+Author: LOLIPOP (@lolipop_1707), Sketchfab
+License: CC Attribution
+Diese Datei stammt aus dem bestehenden RHENUS V28.72 Real-Life-Asset-Pack und
+ist eine performanceoptimierte Ableitung (ausgewählte LOD2-Geometrie,
+reduzierte eingebettete Texturen).
+Die Attribution muss in Projektdokumentation/Credits erhalten bleiben.
+
+Recherche für zukünftige echte Geometrie-Replacements
+------------------------------------------------------
+Vor dem Erstellen dieses Packs wurden reale Web-Assets recherchiert. Besonders
+geeignet sind weiterhin Poly-Haven/CC0-Pflanzen wie Shrub 01/02/03 und Grass
+Medium 01. Diese können später 1:1 an denselben GitHub-Pfaden als echte
+Geometrie-Replacements eingesetzt werden, wenn ihre Binärdateien in das eigene
+Repo übernommen werden.
