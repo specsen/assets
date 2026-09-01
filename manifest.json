@@ -1,5 +1,5 @@
 {
-  "version": "V28.82",
+  "version": "V28.87",
   "runtime_root": "https://raw.githubusercontent.com/specsen/assets/main/models/environment/vegetation/",
   "models": [
     {
@@ -44,5 +44,16 @@
       "glTF_version": 2,
       "declared_length": 283956
     }
+  ],
+  "notes": "Runtime vegetation pack updated with real 3D small tree assets A and B for RHENUS V28.87.",
+  "files": [
+    "models/environment/vegetation/groundcover_photo_volume.glb",
+    "models/environment/vegetation/ornamental_grass_photo_volume_a.glb",
+    "models/environment/vegetation/ornamental_grass_photo_volume_b.glb",
+    "models/environment/vegetation/shrub_photo_volume_a.glb",
+    "models/environment/vegetation/shrub_photo_volume_b.glb",
+    "models/environment/vegetation/small_deciduous_tree_photo_volume.glb",
+    "models/environment/vegetation/small_deciduous_tree_real3d_a.glb",
+    "models/environment/vegetation/small_deciduous_tree_real3d_b.glb"
   ]
 }

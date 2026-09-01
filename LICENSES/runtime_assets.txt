@@ -1,12 +1,10 @@
-V28.82 RUNTIME MODEL NOTES
-==========================
-Die enthaltenen GLBs stammen aus dem bereits fuer das Projekt erzeugten V28.79-Runtime-Vegetationspaket.
-Sie sind die stabilen GitHub-Laufzeitmodelle fuer V28.82 und werden nicht als unveraenderte Poly-Haven-Meshes ausgegeben.
+Runtime vegetation pack for RHENUS V28.87
+=========================================
+This pack contains the GitHub-hosted runtime GLBs used by the widget.
+New in V28.87 are two real 3D small deciduous tree assets:
+- small_deciduous_tree_real3d_a.glb
+- small_deciduous_tree_real3d_b.glb
 
-Poly-Haven-PBR-/HDRI-Quellen, die das Widget weiterhin direkt nutzt (CC0):
-- https://polyhaven.com/a/asphalt_pit_lane
-- https://polyhaven.com/a/leafy_grass
-- https://polyhaven.com/a/sparse_grass
-- https://polyhaven.com/a/concrete_pavers
-- https://polyhaven.com/a/dirt
-- https://polyhaven.com/a/kloppenheim_03_puresky
+Poly Haven remains the visual reference/source family for sky and PBR materials
+used in the scene. The runtime tree assets in this pack are custom mirrored
+runtime assets prepared for the RHENUS widget pipeline.

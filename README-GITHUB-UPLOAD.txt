@@ -1,16 +1,15 @@
-RHENUS V28.82 – GITHUB RUNTIME VEGETATION
-=========================================
+RHENUS GITHUB ASSETS – V28.87 REAL TREE ASSET PASS
+===================================================
+Diese ZIP ist für den Upload nach
+https://raw.githubusercontent.com/specsen/assets/main/
+vorbereitet.
 
-Diese ZIP enthaelt exakt die GLB-Dateien, die V28.82 aus GitHub unter folgendem Pfad erwartet:
+Enthalten ist das zur Laufzeit verwendete Vegetationspaket für V28.87,
+inklusive der neuen echten Kleinbaum-Assets:
+- models/environment/vegetation/small_deciduous_tree_real3d_a.glb
+- models/environment/vegetation/small_deciduous_tree_real3d_b.glb
 
+Die Widget-Version V28.87 erwartet diese Dateien genau unter:
 models/environment/vegetation/
 
-Upload-Ziel:
-specsen/assets (Branch main)
-
-Runtime-Root:
-https://raw.githubusercontent.com/specsen/assets/main/models/environment/vegetation/
-
-Hinweis:
-Die Poly-Haven-PBR-Bodentexturen und das HDRI werden in V28.82 weiterhin direkt von Poly Haven geladen.
-Dieses Paket beseitigt gezielt die fehlerhaften direkten .gltf-Modellaufrufe.
+Vorhandene Strauch-/Gräser-/Groundcover-Assets bleiben enthalten.
