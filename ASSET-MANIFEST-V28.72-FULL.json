@@ -1,0 +1,302 @@
+{
+  "version": "V28.72",
+  "type": "complete-runtime-assets",
+  "asset_root": "https://raw.githubusercontent.com/specsen/assets/main",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ASSET-MANIFEST-V28.72.json",
+      "bytes": 3392,
+      "sha256": "f0647a9aed210a535a3869f99c2169ad2e1eb999401acf8ef0456cb0b1ada83b"
+    },
+    {
+      "path": "ASSET-MANIFEST.json",
+      "bytes": 4395,
+      "sha256": "58d32b828c8f28f562675ce4dd22eb160104907568477e1e7d2807b445090f58"
+    },
+    {
+      "path": "LICENSES-V28.72.txt",
+      "bytes": 544,
+      "sha256": "fc77d4da06a94d1cffb484d409cadc1157c3f04d82c076ea7019e4202d84db0d"
+    },
+    {
+      "path": "README-V28.72-ASSET-UPDATE.txt",
+      "bytes": 594,
+      "sha256": "94eddc04b31eaae9f5a97cbe6f42a1ca2af900b75b41b0b8554f8642fc7750dd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 286,
+      "sha256": "5b586575f566a5a6f3f83a2756bef8ad0bf0baffe91129377b1818b3c387dac3"
+    },
+    {
+      "path": "models/cargo-v14/unit_epal1_1200x800x144_v14.glb",
+      "bytes": 10076,
+      "sha256": "4163799249f1154a2c05b99d841e675837e9ebf2015496edaa1f02d27758887b"
+    },
+    {
+      "path": "models/cargo-v14/unit_epal_gitterbox_1240x835x970_v14.glb",
+      "bytes": 41088,
+      "sha256": "63f1045d94da84018ecf89f7f84179935692dd0028d0d20cb864e1c3e9ef83fb"
+    },
+    {
+      "path": "models/cargo-v14/unit_game_fragile_1200x800x850_600kg_v14.glb",
+      "bytes": 12200,
+      "sha256": "e530f88008759ed5f562652b4a7484e1be8d672c0bc6de5b6818635a533785b1"
+    },
+    {
+      "path": "models/cargo-v14/unit_game_largecrate_2800x2000x1800_11500kg_v14.glb",
+      "bytes": 22124,
+      "sha256": "656b0dfc4ac61a796dae53daa654c7b7f4f4209910754bf8704c021cbc8b8170"
+    },
+    {
+      "path": "models/cargo-v14/unit_game_woodcrate_1200x800x850_850kg_v14.glb",
+      "bytes": 15448,
+      "sha256": "6650fc8f87da6283c240012ca625c31a2c44a585e4081d24c45139c0e83497b7"
+    },
+    {
+      "path": "models/environment/v2872/trees_pine_realtime_lod2_v2872.glb",
+      "bytes": 2014308,
+      "sha256": "5df30183463ec461194fa31caa2e2bae07049c21baf0c8388ffa252808041cfa"
+    },
+    {
+      "path": "models/vehicles/common_cargo_v10.glb",
+      "bytes": 59436,
+      "sha256": "d26c259c71ff6883cc8d52623eb0bec1c848b0d927e06f696314a6db236c74bf"
+    },
+    {
+      "path": "models/vehicles/common_exterior_clean_v10.glb",
+      "bytes": 72420,
+      "sha256": "16ebb610d169fd96a6a7c1bbbbc904bdf29f44ea4c5448635adbeea841248d40"
+    },
+    {
+      "path": "models/vehicles/vehicle_box_trailer_v10.glb",
+      "bytes": 290336,
+      "sha256": "e09a94b45cc63c765db8ef1711af11c1eaab4c365448442f64fa482dee148e57"
+    },
+    {
+      "path": "models/vehicles/vehicle_container40_v10.glb",
+      "bytes": 87412,
+      "sha256": "8e3ee9b45b22a9848fad8714db378522daaa1dede523d2e16e84f56c2cb51fbe"
+    },
+    {
+      "path": "models/vehicles/vehicle_curtainsider_v10.glb",
+      "bytes": 85856,
+      "sha256": "aa61cd0a71ddabca577e5e66fab160f477938ec3f88a757cafdfa193ef11249a"
+    },
+    {
+      "path": "models/warehouse/rhenus_logo_3d_v2854.glb",
+      "bytes": 174404,
+      "sha256": "1b3578de558453892b6b2253c06ccf926d58273e14c990b9143489fcb95065cd"
+    },
+    {
+      "path": "textures/environment/rhenus_daylight_v2856.env",
+      "bytes": 1024412,
+      "sha256": "395bc8822c19184df520ea0d395e0b25e992a9f8649337e5f1008b8eebc04b22"
+    },
+    {
+      "path": "textures/sky/realistic_sky_360.png",
+      "bytes": 1824366,
+      "sha256": "9ed516209bc41cf549d636a5640e832aade10676b91c48e87579822e032560c1"
+    },
+    {
+      "path": "textures/sky/reference_sky_v2862.png",
+      "bytes": 1728293,
+      "sha256": "8a700e7a5c92a7c1a5d2cc5fe0f494f4e2f8e529c880d5f3fae2ecda1ad7c792"
+    },
+    {
+      "path": "textures/warehouse/real/dark_coated_steel_real_albedo.jpg",
+      "bytes": 38115,
+      "sha256": "501b8eddf57b27b5462caf03ae7caf1851268807c51eb26d22724b026cf7a29e"
+    },
+    {
+      "path": "textures/warehouse/real/dark_coated_steel_real_normal_gl.png",
+      "bytes": 35444,
+      "sha256": "b4adb087e58b369ca28eea42bc691a053dbb0d4b273be91218ff17d6eec98d47"
+    },
+    {
+      "path": "textures/warehouse/real/dark_coated_steel_real_roughness.png",
+      "bytes": 17983,
+      "sha256": "aa41f5992dfdde3ebe6e905356338ab0ec1fd1c3c79b5b7342097e3c39c1a05c"
+    },
+    {
+      "path": "textures/warehouse/real/dock_concrete_real_albedo.jpg",
+      "bytes": 35630,
+      "sha256": "d1c44acbcd2f843b596ae936fb9470655a68b563d6c735212a92c6cfeef2b5b1"
+    },
+    {
+      "path": "textures/warehouse/real/dock_concrete_real_normal_gl.png",
+      "bytes": 25824,
+      "sha256": "b6ca4265ae506d3cbbaaae444d99d0f593e3871c40e0ec5f5390a3f1d8713223"
+    },
+    {
+      "path": "textures/warehouse/real/dock_concrete_real_roughness.png",
+      "bytes": 16808,
+      "sha256": "5fda3c54cc0be318c6a7152d01af3b492cc3038dc180a8acbb0c8a96ae7341e8"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/grass_albedo.jpg",
+      "bytes": 41877,
+      "sha256": "271fd2824f959a083ff07eb377edf04d9b4242da98d28adaf38e0b38d19e4f05"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/grass_normal.png",
+      "bytes": 62492,
+      "sha256": "d1480527b8b4de89e7c62d93f1fcdbe4e9cda7ead59c15bef077ec456a2c8ed0"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/grass_roughness.png",
+      "bytes": 1302,
+      "sha256": "a3e2bcb32814e714454175c490f49f7a499116d0d057c312b33be320eb2ad3a3"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/paver_albedo.jpg",
+      "bytes": 42080,
+      "sha256": "26dbbecd8f641c68de8e2dc5ac439293ab16a4b937ede3330cd126c9fc46fb83"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/paver_normal.png",
+      "bytes": 104873,
+      "sha256": "b26e4482dc54c89225c9b426b3e6031a2bef704a6834298f02b001799c8ce473"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/paver_roughness.png",
+      "bytes": 1302,
+      "sha256": "0c6fc2cb3d2fa81d2591abed9346cc698955654bc6b837acca2699e872b940d5"
+    },
+    {
+      "path": "textures/warehouse/reference/v2862/facade_clean_albedo.jpg",
+      "bytes": 14501,
+      "sha256": "8bc8935ae671b98f96d0e4999b5a01cad8268528e1c197baa3665c3d66993816"
+    },
+    {
+      "path": "textures/warehouse/reference/v2862/facade_clean_arm.png",
+      "bytes": 357314,
+      "sha256": "9546edc4ba11b43120d9488c1a6d9a4ecbccc51d77d05dbb262df501c8665f48"
+    },
+    {
+      "path": "textures/warehouse/reference/v2862/facade_clean_normal.png",
+      "bytes": 468750,
+      "sha256": "464a0757b3942e0160669509b8fc5ac6eb5b4e36aacc5287b2b1c2a7fa47af7d"
+    },
+    {
+      "path": "textures/warehouse/reference/v2862/grass_billboard.png",
+      "bytes": 423059,
+      "sha256": "390a43fd4ba2d8419ffd7fa4be333e2a81c2c6142d03a365e94fdfa4eb01a6dc"
+    },
+    {
+      "path": "textures/warehouse/reference/v2862/shrub_billboard.png",
+      "bytes": 470462,
+      "sha256": "95ec8d628e6cda6c74623919f960eb5fcae2c4f214bfb687605a712ce5118d9c"
+    },
+    {
+      "path": "textures/warehouse/reference/v2862/tree_billboard.png",
+      "bytes": 378852,
+      "sha256": "f4eb0ec6127472e736eb516ccb9083270fa0d9d79a469e195f21d40e61a912fc"
+    },
+    {
+      "path": "textures/warehouse/reference/v2862/tree_small_billboard.png",
+      "bytes": 373364,
+      "sha256": "5b712417824c9544964c82f4a564bb2f5a08f1b14caa6927273c75180bb87470"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/facade_panels/facade_panels_normal_gl_1k.jpg",
+      "bytes": 360244,
+      "sha256": "5e826a27d3ea1f6adbea1d27ad11594a32c59f2f7de416d3f7723bc1ef3c476e"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/facade_panels/facade_panels_roughness_1k.jpg",
+      "bytes": 75785,
+      "sha256": "f98d44e19c45e215641ed4ad3b51a083981c9d55816142a05771a97d6dc5e54d"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/grass001/grass001_ao.jpg",
+      "bytes": 902486,
+      "sha256": "a5e6e6a1c4329562e99f009313f09e44dd179dedbfb5dd679feeaf17ca122ab9"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/grass001/grass001_color.jpg",
+      "bytes": 1764300,
+      "sha256": "b9b6d61bc3b6137b868a3447eef18737896acd26d58fe2f4b83ce8c0e9d3f8ad"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/grass001/grass001_normal_gl.jpg",
+      "bytes": 2338245,
+      "sha256": "eef0b56db5f00a6fcb3d0e0f8463e4e141e88aa85b26527a04d617b75a4ab5d2"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/grass001/grass001_roughness.jpg",
+      "bytes": 823623,
+      "sha256": "8810effd44756341170d551501b7d0c645dc2395dbce46a8c7f1e61045258a06"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_ao.jpg",
+      "bytes": 449376,
+      "sha256": "d057f309c8df4ddc1646c9ee5284325b54bffbe6df12c05f731631f04cbb2c85"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_color.jpg",
+      "bytes": 1558650,
+      "sha256": "f9331bfedf46cce4e09e2a09b226b81ab38fc5847174d6aba01fa2412a0fc07f"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_normal_gl.jpg",
+      "bytes": 2297998,
+      "sha256": "1facf529f8ccc5ef740e8c04f9ec022127632e490ab97015d66cd8ce55c1a36b"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_roughness.jpg",
+      "bytes": 751904,
+      "sha256": "d7f0f90681bfd4bdabe0dce9f636d61aa341bccb958c423716d566d518ec9764"
+    },
+    {
+      "path": "textures/warehouse_ground/asphalt_archviz_albedo_1536.jpg",
+      "bytes": 193412,
+      "sha256": "1ccd13716fe4ce29d419fc1d5dfd957561958b9615fe5b01b413e6645626a12f"
+    },
+    {
+      "path": "textures/warehouse_ground/asphalt_archviz_normal_1024.png",
+      "bytes": 1392884,
+      "sha256": "ddd088e83d861a2f9ee409bd300cd082fd2b975acd89d1a38a716ca960871cac"
+    },
+    {
+      "path": "textures/warehouse_ground/asphalt_archviz_roughness_1024.jpg",
+      "bytes": 34636,
+      "sha256": "e02b502e1a79d57513ccabed962f1b168e3a19163d177fd5ea3176307a6412e9"
+    },
+    {
+      "path": "textures/warehouse_ground/yard_detail_rgba_1536.png",
+      "bytes": 34255,
+      "sha256": "8c0448739fec1f4e39638956b60edf2a690fa4b0b0956b3f9f8fd588ce591b32"
+    },
+    {
+      "path": "textures/warehouse_ground/yard_wetness_1024.png",
+      "bytes": 115928,
+      "sha256": "f47285e0e36c2ee21c47efd9d5434c09694a0e4a3ba2e19d9b06feab23f7ead1"
+    },
+    {
+      "path": "textures/warehouse_ground/v2872/road010b/road010b_ao.jpg",
+      "bytes": 733997,
+      "sha256": "903295565e09ccf9e3d436c81d046c7def0cef7137aade34b3d134a7bd8e826c"
+    },
+    {
+      "path": "textures/warehouse_ground/v2872/road010b/road010b_color.jpg",
+      "bytes": 1009270,
+      "sha256": "f4cbf42bf8eb781331a368add87c38f7d2f1d80bbc9e78af34a958a3f215e48b"
+    },
+    {
+      "path": "textures/warehouse_ground/v2872/road010b/road010b_normal_gl.jpg",
+      "bytes": 1778055,
+      "sha256": "b2a60e3e20b91c11cdd3127fd656e76daefec50e9c63be53f014b491e4b61692"
+    },
+    {
+      "path": "textures/warehouse_ground/v2872/road010b/road010b_roughness.jpg",
+      "bytes": 675851,
+      "sha256": "cc850f155a5e1d3317b1d63f078d3244cbbcb9f29155fe8dbe4ed217f0469a44"
+    }
+  ]
+}

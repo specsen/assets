@@ -1,0 +1,90 @@
+{
+  "version": "V28.72",
+  "files": [
+    {
+      "path": "LICENSES-V28.72.txt",
+      "bytes": 544,
+      "sha256": "fc77d4da06a94d1cffb484d409cadc1157c3f04d82c076ea7019e4202d84db0d"
+    },
+    {
+      "path": "README-V28.72-ASSET-UPDATE.txt",
+      "bytes": 594,
+      "sha256": "94eddc04b31eaae9f5a97cbe6f42a1ca2af900b75b41b0b8554f8642fc7750dd"
+    },
+    {
+      "path": "models/environment/v2872/trees_pine_realtime_lod2_v2872.glb",
+      "bytes": 2014308,
+      "sha256": "5df30183463ec461194fa31caa2e2bae07049c21baf0c8388ffa252808041cfa"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/facade_panels/facade_panels_normal_gl_1k.jpg",
+      "bytes": 360244,
+      "sha256": "5e826a27d3ea1f6adbea1d27ad11594a32c59f2f7de416d3f7723bc1ef3c476e"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/facade_panels/facade_panels_roughness_1k.jpg",
+      "bytes": 75785,
+      "sha256": "f98d44e19c45e215641ed4ad3b51a083981c9d55816142a05771a97d6dc5e54d"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/grass001/grass001_ao.jpg",
+      "bytes": 902486,
+      "sha256": "a5e6e6a1c4329562e99f009313f09e44dd179dedbfb5dd679feeaf17ca122ab9"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/grass001/grass001_color.jpg",
+      "bytes": 1764300,
+      "sha256": "b9b6d61bc3b6137b868a3447eef18737896acd26d58fe2f4b83ce8c0e9d3f8ad"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/grass001/grass001_normal_gl.jpg",
+      "bytes": 2338245,
+      "sha256": "eef0b56db5f00a6fcb3d0e0f8463e4e141e88aa85b26527a04d617b75a4ab5d2"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/grass001/grass001_roughness.jpg",
+      "bytes": 823623,
+      "sha256": "8810effd44756341170d551501b7d0c645dc2395dbce46a8c7f1e61045258a06"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_ao.jpg",
+      "bytes": 449376,
+      "sha256": "d057f309c8df4ddc1646c9ee5284325b54bffbe6df12c05f731631f04cbb2c85"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_color.jpg",
+      "bytes": 1558650,
+      "sha256": "f9331bfedf46cce4e09e2a09b226b81ab38fc5847174d6aba01fa2412a0fc07f"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_normal_gl.jpg",
+      "bytes": 2297998,
+      "sha256": "1facf529f8ccc5ef740e8c04f9ec022127632e490ab97015d66cd8ce55c1a36b"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_roughness.jpg",
+      "bytes": 751904,
+      "sha256": "d7f0f90681bfd4bdabe0dce9f636d61aa341bccb958c423716d566d518ec9764"
+    },
+    {
+      "path": "textures/warehouse_ground/v2872/road010b/road010b_ao.jpg",
+      "bytes": 733997,
+      "sha256": "903295565e09ccf9e3d436c81d046c7def0cef7137aade34b3d134a7bd8e826c"
+    },
+    {
+      "path": "textures/warehouse_ground/v2872/road010b/road010b_color.jpg",
+      "bytes": 1009270,
+      "sha256": "f4cbf42bf8eb781331a368add87c38f7d2f1d80bbc9e78af34a958a3f215e48b"
+    },
+    {
+      "path": "textures/warehouse_ground/v2872/road010b/road010b_normal_gl.jpg",
+      "bytes": 1778055,
+      "sha256": "b2a60e3e20b91c11cdd3127fd656e76daefec50e9c63be53f014b491e4b61692"
+    },
+    {
+      "path": "textures/warehouse_ground/v2872/road010b/road010b_roughness.jpg",
+      "bytes": 675851,
+      "sha256": "cc850f155a5e1d3317b1d63f078d3244cbbcb9f29155fe8dbe4ed217f0469a44"
+    }
+  ]
+}

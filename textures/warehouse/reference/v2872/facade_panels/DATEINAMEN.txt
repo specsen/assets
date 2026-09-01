@@ -1,7 +1,0 @@
-Poly Haven Concrete Panels
-Für die RHENUS-Fassade bevorzugt nur:
-Normal GL
-Roughness
-AO
-
-Diffuse/Albedo nicht als Hauptfassade verwenden.
