@@ -1,0 +1,12 @@
+V28.82 RUNTIME MODEL NOTES
+==========================
+Die enthaltenen GLBs stammen aus dem bereits fuer das Projekt erzeugten V28.79-Runtime-Vegetationspaket.
+Sie sind die stabilen GitHub-Laufzeitmodelle fuer V28.82 und werden nicht als unveraenderte Poly-Haven-Meshes ausgegeben.
+
+Poly-Haven-PBR-/HDRI-Quellen, die das Widget weiterhin direkt nutzt (CC0):
+- https://polyhaven.com/a/asphalt_pit_lane
+- https://polyhaven.com/a/leafy_grass
+- https://polyhaven.com/a/sparse_grass
+- https://polyhaven.com/a/concrete_pavers
+- https://polyhaven.com/a/dirt
+- https://polyhaven.com/a/kloppenheim_03_puresky

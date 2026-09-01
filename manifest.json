@@ -1,13 +1,48 @@
 {
-  "version": "V28.79",
-  "assetRoot": "https://raw.githubusercontent.com/specsen/assets/main",
-  "assets": [
-    {"id":"shrub_a","path":"models/environment/vegetation/shrub_photo_volume_a.glb","kind":"shrub","runtime":"photo-volume","embeddedTexture":true},
-    {"id":"shrub_b","path":"models/environment/vegetation/shrub_photo_volume_b.glb","kind":"shrub","runtime":"photo-volume","embeddedTexture":true},
-    {"id":"grass_a","path":"models/environment/vegetation/ornamental_grass_photo_volume_a.glb","kind":"ornamental-grass","runtime":"photo-volume","embeddedTexture":true},
-    {"id":"grass_b","path":"models/environment/vegetation/ornamental_grass_photo_volume_b.glb","kind":"ornamental-grass","runtime":"photo-volume","embeddedTexture":true},
-    {"id":"groundcover","path":"models/environment/vegetation/groundcover_photo_volume.glb","kind":"groundcover","runtime":"photo-volume","embeddedTexture":true},
-    {"id":"small_tree","path":"models/environment/vegetation/small_deciduous_tree_photo_volume.glb","kind":"small-tree","runtime":"photo-volume","embeddedTexture":true},
-    {"id":"pine_lod2","path":"models/environment/vegetation/trees_pine_realtime_lod2_v2872.glb","kind":"tree","runtime":"geometry","optional":true,"license":"CC Attribution"}
+  "version": "V28.82",
+  "runtime_root": "https://raw.githubusercontent.com/specsen/assets/main/models/environment/vegetation/",
+  "models": [
+    {
+      "file": "groundcover_photo_volume.glb",
+      "bytes": 42260,
+      "glb_magic": "glTF",
+      "glTF_version": 2,
+      "declared_length": 42260
+    },
+    {
+      "file": "ornamental_grass_photo_volume_a.glb",
+      "bytes": 418768,
+      "glb_magic": "glTF",
+      "glTF_version": 2,
+      "declared_length": 418768
+    },
+    {
+      "file": "ornamental_grass_photo_volume_b.glb",
+      "bytes": 413736,
+      "glb_magic": "glTF",
+      "glTF_version": 2,
+      "declared_length": 413736
+    },
+    {
+      "file": "shrub_photo_volume_a.glb",
+      "bytes": 252744,
+      "glb_magic": "glTF",
+      "glTF_version": 2,
+      "declared_length": 252744
+    },
+    {
+      "file": "shrub_photo_volume_b.glb",
+      "bytes": 243520,
+      "glb_magic": "glTF",
+      "glTF_version": 2,
+      "declared_length": 243520
+    },
+    {
+      "file": "small_deciduous_tree_photo_volume.glb",
+      "bytes": 283956,
+      "glb_magic": "glTF",
+      "glTF_version": 2,
+      "declared_length": 283956
+    }
   ]
 }
