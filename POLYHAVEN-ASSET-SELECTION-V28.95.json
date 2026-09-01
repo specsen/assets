@@ -1,0 +1,55 @@
+{
+  "version": "V28.95",
+  "purpose": "mixed tree and understory boundary behind parking lot",
+  "assets": [
+    {
+      "id": "tree_small_02",
+      "title": "Tree Small 02",
+      "source": "https://polyhaven.com/a/tree_small_02",
+      "mirror_target": "models/environment/vegetation/polyhaven/tree_small_02/polyhaven_tree_small_02.glb",
+      "role": "primary small broadleaf tree"
+    },
+    {
+      "id": "jacaranda_tree",
+      "title": "Jacaranda Tree",
+      "source": "https://polyhaven.com/a/jacaranda_tree",
+      "mirror_target": "models/environment/vegetation/polyhaven/jacaranda_tree/polyhaven_jacaranda_tree.glb",
+      "role": "wider accent tree"
+    },
+    {
+      "id": "island_tree_02",
+      "title": "Island Tree 02",
+      "source": "https://polyhaven.com/a/island_tree_02",
+      "mirror_target": "models/environment/vegetation/polyhaven/island_tree_02/polyhaven_island_tree_02.glb",
+      "role": "alternate canopy silhouette"
+    },
+    {
+      "id": "shrub_03",
+      "title": "Shrub 03",
+      "source": "https://polyhaven.com/a/shrub_03",
+      "mirror_target": "models/environment/vegetation/polyhaven/shrub_03/polyhaven_shrub_03.glb",
+      "role": "low filler shrub"
+    },
+    {
+      "id": "shrub_04",
+      "title": "Shrub 04",
+      "source": "https://polyhaven.com/a/shrub_04",
+      "mirror_target": "models/environment/vegetation/polyhaven/shrub_04/polyhaven_shrub_04.glb",
+      "role": "dense main shrub"
+    },
+    {
+      "id": "shrub_sorrel_01",
+      "title": "Shrub Sorrel 01",
+      "source": "https://polyhaven.com/a/shrub_sorrel_01",
+      "mirror_target": "models/environment/vegetation/polyhaven/shrub_sorrel_01/polyhaven_shrub_sorrel_01.glb",
+      "role": "understory accent"
+    },
+    {
+      "id": "grass_medium_01",
+      "title": "Grass Medium 01",
+      "source": "https://polyhaven.com/a/grass_medium_01",
+      "mirror_target": "models/environment/vegetation/polyhaven/grass_medium_01/polyhaven_grass_medium_01.glb",
+      "role": "grass clumps between shrubs and trees"
+    }
+  ]
+}
