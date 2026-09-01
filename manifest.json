@@ -1,59 +1,18 @@
 {
-  "version": "V28.87",
-  "runtime_root": "https://raw.githubusercontent.com/specsen/assets/main/models/environment/vegetation/",
-  "models": [
-    {
-      "file": "groundcover_photo_volume.glb",
-      "bytes": 42260,
-      "glb_magic": "glTF",
-      "glTF_version": 2,
-      "declared_length": 42260
-    },
-    {
-      "file": "ornamental_grass_photo_volume_a.glb",
-      "bytes": 418768,
-      "glb_magic": "glTF",
-      "glTF_version": 2,
-      "declared_length": 418768
-    },
-    {
-      "file": "ornamental_grass_photo_volume_b.glb",
-      "bytes": 413736,
-      "glb_magic": "glTF",
-      "glTF_version": 2,
-      "declared_length": 413736
-    },
-    {
-      "file": "shrub_photo_volume_a.glb",
-      "bytes": 252744,
-      "glb_magic": "glTF",
-      "glTF_version": 2,
-      "declared_length": 252744
-    },
-    {
-      "file": "shrub_photo_volume_b.glb",
-      "bytes": 243520,
-      "glb_magic": "glTF",
-      "glTF_version": 2,
-      "declared_length": 243520
-    },
-    {
-      "file": "small_deciduous_tree_photo_volume.glb",
-      "bytes": 283956,
-      "glb_magic": "glTF",
-      "glTF_version": 2,
-      "declared_length": 283956
-    }
-  ],
-  "notes": "Runtime vegetation pack updated with real 3D small tree assets A and B for RHENUS V28.87.",
+  "version": "V28.90",
+  "asset_root": "models/environment/site/",
   "files": [
-    "models/environment/vegetation/groundcover_photo_volume.glb",
-    "models/environment/vegetation/ornamental_grass_photo_volume_a.glb",
-    "models/environment/vegetation/ornamental_grass_photo_volume_b.glb",
-    "models/environment/vegetation/shrub_photo_volume_a.glb",
-    "models/environment/vegetation/shrub_photo_volume_b.glb",
-    "models/environment/vegetation/small_deciduous_tree_photo_volume.glb",
-    "models/environment/vegetation/small_deciduous_tree_real3d_a.glb",
-    "models/environment/vegetation/small_deciduous_tree_real3d_b.glb"
+    {
+      "path": "models/environment/site/service_van_real3d.glb",
+      "bytes": 11072
+    },
+    {
+      "path": "models/environment/site/visitor_hatchback_real3d.glb",
+      "bytes": 10948
+    },
+    {
+      "path": "models/environment/site/visitor_sedan_real3d.glb",
+      "bytes": 11108
+    }
   ]
 }

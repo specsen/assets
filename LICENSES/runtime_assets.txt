@@ -1,10 +1,4 @@
-Runtime vegetation pack for RHENUS V28.87
-=========================================
-This pack contains the GitHub-hosted runtime GLBs used by the widget.
-New in V28.87 are two real 3D small deciduous tree assets:
-- small_deciduous_tree_real3d_a.glb
-- small_deciduous_tree_real3d_b.glb
-
-Poly Haven remains the visual reference/source family for sky and PBR materials
-used in the scene. The runtime tree assets in this pack are custom mirrored
-runtime assets prepared for the RHENUS widget pipeline.
+RHENUS V28.90 runtime vehicle assets
+====================================
+The three GLB vehicle assets in this package were prepared specifically for the
+RHENUS Babylon.js runtime and are intended to be mirrored into specsen/assets.
