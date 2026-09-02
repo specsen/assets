@@ -1,14 +1,18 @@
-RHENUS GITHUB ASSETS – V29.17 BIMOBJECT HOCHBORD
-=================================================
+RHENUS GITHUB ASSETS – V29.20
+==============================
 
-Diese Ordner in das Root von specsen/assets kopieren.
+Inhalt direkt in das Root von specsen/assets kopieren.
 
-Runtime-Pfad:
+NEU – Wiese:
+textures/environment/landscape/meadow/meadow_ground_albedo_2k.jpg
+
+Quelle:
+source/hdris/meadow/meadow_2_4k.exr
+
+BIMobject Hochbord:
 models/environment/site/bimobject/hochbord/BIMobject_Hochbord_12-15x100x30_Fase3.glb
 
-Quelltextur:
+Bordstein-Quelltextur:
 textures/environment/site/bimobject/hochbord/Cassero-steingrau-FF-1000x600.jpg
 
-Hinweis:
-Die Textur ist im GLB eingebettet. Die separate JPG ist zusätzlich für
-Dokumentation und spätere Materialänderungen enthalten.
+Keine dieser neuen Szene-Dateien befindet sich im Zoho-Widget V29.20.
