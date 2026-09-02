@@ -1,0 +1,7 @@
+Source: user supplied BIMobject-Hochbordsteine.zip
+Selected model: Lithonplus Hochbord gerade 12-15x100x30 cm, Fase 3
+
+Runtime:
+The Cassero-steingrau texture is EMBEDDED inside the GLB.
+The separate JPG under /textures/... is included as a source/reference file
+for future editing and does not need to be requested by Babylon at runtime.

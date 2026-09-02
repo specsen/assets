@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p "models/environment/vegetation/polyhaven/tree_small_02"
+curl -L "https://raw.githubusercontent.com/CBaileyDev/Life-Theory/9a2e1d51f9eb30e993bed73013eab57acfa34189/assets/models/tree_small_02.glb" -o "models/environment/vegetation/polyhaven/tree_small_02/polyhaven_tree_small_02.glb"
+mkdir -p "models/environment/vegetation/polyhaven/fir_tree_01"
+curl -L "https://raw.githubusercontent.com/CBaileyDev/Life-Theory/9a2e1d51f9eb30e993bed73013eab57acfa34189/assets/models/fir_tree_01.glb" -o "models/environment/vegetation/polyhaven/fir_tree_01/polyhaven_fir_tree_01.glb"
+mkdir -p "models/environment/vegetation/polyhaven/pine_tree_01"
+curl -L "https://raw.githubusercontent.com/CBaileyDev/Life-Theory/9a2e1d51f9eb30e993bed73013eab57acfa34189/assets/models/pine_tree_01.glb" -o "models/environment/vegetation/polyhaven/pine_tree_01/polyhaven_pine_tree_01.glb"
+mkdir -p "models/environment/vegetation/polyhaven/shrub_01"
+curl -L "https://raw.githubusercontent.com/CBaileyDev/Life-Theory/9a2e1d51f9eb30e993bed73013eab57acfa34189/assets/models/shrub_01.glb" -o "models/environment/vegetation/polyhaven/shrub_01/polyhaven_shrub_01.glb"
+mkdir -p "models/environment/vegetation/polyhaven/fern_02"
+curl -L "https://raw.githubusercontent.com/CBaileyDev/Life-Theory/9a2e1d51f9eb30e993bed73013eab57acfa34189/assets/models/fern_02.glb" -o "models/environment/vegetation/polyhaven/fern_02/polyhaven_fern_02.glb"
+mkdir -p "models/environment/vegetation/polyhaven/grass_medium_01"
+curl -L "https://raw.githubusercontent.com/CBaileyDev/Life-Theory/9a2e1d51f9eb30e993bed73013eab57acfa34189/assets/models/grass_medium_01.glb" -o "models/environment/vegetation/polyhaven/grass_medium_01/polyhaven_grass_medium_01.glb"
+echo "Poly Haven mirror assets downloaded successfully."
