@@ -1,0 +1,16 @@
+{
+  "version": "V29.24",
+  "purpose": "hall-side privacy hedge",
+  "asset_root": "https://raw.githubusercontent.com/specsen/assets/main",
+  "assets": [
+    {
+      "type": "glb",
+      "path": "models/environment/vegetation/hedge/kenney_platformer_kit/kenney_hedge.glb",
+      "runtime_url": "https://raw.githubusercontent.com/specsen/assets/main/models/environment/vegetation/hedge/kenney_platformer_kit/kenney_hedge.glb",
+      "source": "Kenney Platformer Kit",
+      "license": "CC0",
+      "sha256": "826ac4150e7209dbe47bfdfc26050b5227456c3006e83eb0cef56138f7701734",
+      "bytes": 3932
+    }
+  ]
+}
