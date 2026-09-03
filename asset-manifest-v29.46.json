@@ -1,0 +1,25 @@
+{
+  "version": "V29.46",
+  "asset": "modular_street_seating",
+  "source": "user-uploaded modular_street_seating_2k.blend.zip from Poly Haven",
+  "license": "CC0",
+  "target_root": "models/environment/entrance/polyhaven/modular_street_seating/source/",
+  "files": [
+    "README-GITHUB-UPLOAD-V29.46.txt",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/modular_street_seating_2k.blend",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_armrests_diff_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_armrests_metal_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_armrests_nor_gl_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_armrests_rough_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_connectors_diff_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_connectors_nor_gl_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_connectors_rough_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_supports_diff_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_supports_metal_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_supports_nor_gl_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_supports_rough_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_timber_diff_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_timber_nor_gl_2k.png",
+    "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_timber_rough_2k.png"
+  ]
+}
