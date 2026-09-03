@@ -1,0 +1,83 @@
+{
+  "version": "V29.47",
+  "asset": "Poly Haven Modular Street Seating",
+  "license": "CC0",
+  "runtime_path": "models/environment/entrance/polyhaven/modular_street_seating/modular_street_seating.glb",
+  "runtime_self_contained": true,
+  "runtime_triangles": 21396,
+  "runtime_extents_m": [
+    4.34,
+    0.95,
+    0.77
+  ],
+  "files": [
+    {
+      "path": "README-GITHUB-UPLOAD-V29.47.txt",
+      "size": 794
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/modular_street_seating.glb",
+      "size": 14717860
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/modular_street_seating_2k.blend",
+      "size": 672211
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_armrests_diff_2k.png",
+      "size": 5161559
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_armrests_metal_2k.png",
+      "size": 2297399
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_armrests_nor_gl_2k.png",
+      "size": 2792045
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_armrests_rough_2k.png",
+      "size": 1966067
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_connectors_diff_2k.png",
+      "size": 1567333
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_connectors_nor_gl_2k.png",
+      "size": 3962108
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_connectors_rough_2k.png",
+      "size": 1735121
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_supports_diff_2k.png",
+      "size": 5537318
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_supports_metal_2k.png",
+      "size": 2583306
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_supports_nor_gl_2k.png",
+      "size": 4018042
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_supports_rough_2k.png",
+      "size": 2154551
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_timber_diff_2k.png",
+      "size": 5414741
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_timber_nor_gl_2k.png",
+      "size": 4960352
+    },
+    {
+      "path": "models/environment/entrance/polyhaven/modular_street_seating/source/textures/modular_street_seating_timber_rough_2k.png",
+      "size": 2540767
+    }
+  ]
+}
