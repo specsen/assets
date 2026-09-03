@@ -1,0 +1,13 @@
+{
+  "version": "V29.34",
+  "asset_root": "https://raw.githubusercontent.com/specsen/assets/main",
+  "assets": [
+    {
+      "path": "models/environment/site/hedge_green_fence_composite/hedge_green_fence_high_hedge.glb",
+      "bytes": 4005672,
+      "sha256": "b4f4a8e9b54c9869627f0cc90977caa422ad2b39ec87f69795db06e3ab27412b",
+      "type": "glb",
+      "purpose": "composite wall fence high hedge"
+    }
+  ]
+}
