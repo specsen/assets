@@ -1,0 +1,16 @@
+{
+  "version": "V29.25",
+  "asset_root": "https://raw.githubusercontent.com/specsen/assets/main",
+  "assets": [
+    {
+      "path": "models/environment/site/hedge_green_fence/hedge_green_fence.glb",
+      "source": "user upload / Sketchfab download",
+      "bytes": 15201056
+    },
+    {
+      "path": "models/environment/vegetation/hedge/high_hedge.glb",
+      "source": "user upload",
+      "bytes": 2430256
+    }
+  ]
+}
