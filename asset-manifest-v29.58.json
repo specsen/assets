@@ -1,0 +1,14 @@
+{
+  "version": "V29.58",
+  "package": "RHENUS GitHub Assets - User Trailer Models",
+  "target_repo": "specsen/assets",
+  "target_root": "models/vehicles/background_blockers/user_uploaded/",
+  "files": [
+    "truck.glb",
+    "auto_mezzanine_deck_trailer.glb",
+    "cistern_tank_trailer.glb",
+    "semi_trailer.glb",
+    "schmitz_trailer.glb"
+  ],
+  "notes": "These GLB models are intended as side-of-hall visual blockers/background vehicles."
+}
