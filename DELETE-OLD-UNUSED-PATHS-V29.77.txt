@@ -1,0 +1,26 @@
+DELETE-OLD-UNUSED-PATHS-V29.77
+
+Diese alten Pfade werden von V29.77 nicht mehr benötigt und können im GitHub-Repo gelöscht werden:
+
+models/environment/entrance/polyhaven/modular_street_seating/
+models/environment/vegetation/hedge/high_hedge.glb
+models/environment/vegetation/hedge/kenney_platformer_kit/kenney_hedge.glb
+models/environment/site/hedge_green_fence/hedge_green_fence.glb
+models/vehicles/background_blockers/user_uploaded/
+source/hdris/meadow/meadow_2_4k.exr
+asset-manifest-v29.24.json
+asset-manifest-v29.25.json
+asset-manifest-v29.34.json
+asset-manifest-v29.46.json
+asset-manifest-v29.47.json
+asset-manifest-v29.58.json
+README-GITHUB-UPLOAD-V29.21.txt
+README-GITHUB-UPLOAD-V29.24-HEDGE.txt
+README-GITHUB-UPLOAD-V29.25.txt
+README-GITHUB-UPLOAD-V29.34.txt
+README-GITHUB-UPLOAD-V29.46.txt
+README-GITHUB-UPLOAD-V29.47.txt
+README-GITHUB-UPLOAD-V29.58.txt
+
+Wichtig:
+ZIP-Upload allein löscht bei GitHub keine Altdateien. Diese Pfade müssen aktiv entfernt werden, wenn das Repo wirklich sauber sein soll.

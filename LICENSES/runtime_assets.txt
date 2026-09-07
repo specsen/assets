@@ -1,4 +1,0 @@
-RHENUS V28.90 runtime vehicle assets
-====================================
-The three GLB vehicle assets in this package were prepared specifically for the
-RHENUS Babylon.js runtime and are intended to be mirrored into specsen/assets.
