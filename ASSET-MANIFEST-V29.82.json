@@ -1,0 +1,191 @@
+{
+  "version": "V29.82",
+  "asset_root": "https://raw.githubusercontent.com/specsen/assets/main",
+  "files": [
+    {
+      "path": "models/cargo-v14/unit_epal1_1200x800x144_v14.glb",
+      "bytes": 10076,
+      "sha256": "4163799249f1154a2c05b99d841e675837e9ebf2015496edaa1f02d27758887b"
+    },
+    {
+      "path": "models/cargo-v14/unit_epal_gitterbox_1240x835x970_v14.glb",
+      "bytes": 41088,
+      "sha256": "63f1045d94da84018ecf89f7f84179935692dd0028d0d20cb864e1c3e9ef83fb"
+    },
+    {
+      "path": "models/cargo-v14/unit_game_fragile_1200x800x850_600kg_v14.glb",
+      "bytes": 12200,
+      "sha256": "e530f88008759ed5f562652b4a7484e1be8d672c0bc6de5b6818635a533785b1"
+    },
+    {
+      "path": "models/cargo-v14/unit_game_largecrate_2800x2000x1800_11500kg_v14.glb",
+      "bytes": 22124,
+      "sha256": "656b0dfc4ac61a796dae53daa654c7b7f4f4209910754bf8704c021cbc8b8170"
+    },
+    {
+      "path": "models/cargo-v14/unit_game_woodcrate_1200x800x850_850kg_v14.glb",
+      "bytes": 15448,
+      "sha256": "6650fc8f87da6283c240012ca625c31a2c44a585e4081d24c45139c0e83497b7"
+    },
+    {
+      "path": "models/environment/site/bimobject/hochbord/BIMobject_Hochbord_12-15x100x30_Fase3.glb",
+      "bytes": 833108,
+      "sha256": "7c8ee00a8b2feb71b1d1910d39d7109c4df72e07f4767fdc69c2f50315c02921"
+    },
+    {
+      "path": "models/vehicles/common_exterior_clean_v10.glb",
+      "bytes": 72420,
+      "sha256": "16ebb610d169fd96a6a7c1bbbbc904bdf29f44ea4c5448635adbeea841248d40"
+    },
+    {
+      "path": "models/vehicles/vehicle_box_trailer_v10.glb",
+      "bytes": 290336,
+      "sha256": "e09a94b45cc63c765db8ef1711af11c1eaab4c365448442f64fa482dee148e57"
+    },
+    {
+      "path": "models/vehicles/vehicle_container40_v10.glb",
+      "bytes": 87412,
+      "sha256": "8e3ee9b45b22a9848fad8714db378522daaa1dede523d2e16e84f56c2cb51fbe"
+    },
+    {
+      "path": "models/vehicles/vehicle_curtainsider_v10.glb",
+      "bytes": 85856,
+      "sha256": "aa61cd0a71ddabca577e5e66fab160f477938ec3f88a757cafdfa193ef11249a"
+    },
+    {
+      "path": "models/warehouse/rhenus_logo_3d_v2854.glb",
+      "bytes": 174404,
+      "sha256": "1b3578de558453892b6b2253c06ccf926d58273e14c990b9143489fcb95065cd"
+    },
+    {
+      "path": "textures/cargo/motorcycle/motorcycle-side.jpg",
+      "bytes": 145434,
+      "sha256": "5ce765933fad31c559285f7381f39359715f42826360cf1a81a1646474f686b0"
+    },
+    {
+      "path": "textures/environment/ground/v2881/asphalt_macro_2k.png",
+      "bytes": 263778,
+      "sha256": "26150fd0d139b888339f6de104da492bc3a1fc54f6a2df109ab7aa8c24340b16"
+    },
+    {
+      "path": "textures/environment/ground/v2881/cracks_rgba_1k.png",
+      "bytes": 31390,
+      "sha256": "83a8ce72da01ee5e6ce0b856468de8b2cb413cc0ee25da6c3ab80a4c4927b2d6"
+    },
+    {
+      "path": "textures/environment/ground/v2881/oil_stains_rgba_1k.png",
+      "bytes": 81076,
+      "sha256": "258d2313fc0bcdb81c144dfdde1fc9fb794571c7ac1d32761b1e885278845bc3"
+    },
+    {
+      "path": "textures/environment/ground/v2881/puddle_mask_1k.png",
+      "bytes": 43535,
+      "sha256": "2d54104087b091eb1ffee130ce5fdb24084958b7bb19447a568bb15b1949735a"
+    },
+    {
+      "path": "textures/environment/ground/v2881/repair_patch_rgba_1k.png",
+      "bytes": 20918,
+      "sha256": "2a9fdc9835ac92ca07f34ab4c0dbdc61a2e568f5fc343421226a636db627dc57"
+    },
+    {
+      "path": "textures/environment/ground/v2881/tire_marks_rgba_2k.png",
+      "bytes": 62923,
+      "sha256": "3f54ae4a5bd368a446833bb612cc652c2f49983a4fee7cc36760810887d7fa31"
+    },
+    {
+      "path": "textures/environment/ground/v2881/wetness_mask_2k.png",
+      "bytes": 330052,
+      "sha256": "efc6d8625213fe6e86f85f5ff0086f670de5b8ccf99d413b94b2e9124d78f657"
+    },
+    {
+      "path": "textures/environment/rhenus_daylight_v2856.env",
+      "bytes": 1024412,
+      "sha256": "395bc8822c19184df520ea0d395e0b25e992a9f8649337e5f1008b8eebc04b22"
+    },
+    {
+      "path": "textures/sky/reference_sky_v2862.png",
+      "bytes": 1728293,
+      "sha256": "8a700e7a5c92a7c1a5d2cc5fe0f494f4e2f8e529c880d5f3fae2ecda1ad7c792"
+    },
+    {
+      "path": "textures/warehouse/real/dock_concrete_real_albedo.jpg",
+      "bytes": 35630,
+      "sha256": "d1c44acbcd2f843b596ae936fb9470655a68b563d6c735212a92c6cfeef2b5b1"
+    },
+    {
+      "path": "textures/warehouse/real/dock_concrete_real_normal_gl.png",
+      "bytes": 25824,
+      "sha256": "b6ca4265ae506d3cbbaaae444d99d0f593e3871c40e0ec5f5390a3f1d8713223"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/grass_albedo.jpg",
+      "bytes": 41877,
+      "sha256": "271fd2824f959a083ff07eb377edf04d9b4242da98d28adaf38e0b38d19e4f05"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/grass_normal.png",
+      "bytes": 62492,
+      "sha256": "d1480527b8b4de89e7c62d93f1fcdbe4e9cda7ead59c15bef077ec456a2c8ed0"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/grass_roughness.png",
+      "bytes": 1302,
+      "sha256": "a3e2bcb32814e714454175c490f49f7a499116d0d057c312b33be320eb2ad3a3"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/paver_albedo.jpg",
+      "bytes": 42080,
+      "sha256": "26dbbecd8f641c68de8e2dc5ac439293ab16a4b937ede3330cd126c9fc46fb83"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/paver_normal.png",
+      "bytes": 104873,
+      "sha256": "b26e4482dc54c89225c9b426b3e6031a2bef704a6834298f02b001799c8ce473"
+    },
+    {
+      "path": "textures/warehouse/reference/v2859/paver_roughness.png",
+      "bytes": 1302,
+      "sha256": "0c6fc2cb3d2fa81d2591abed9346cc698955654bc6b837acca2699e872b940d5"
+    },
+    {
+      "path": "textures/warehouse/reference/v2862/facade_clean_albedo.jpg",
+      "bytes": 14501,
+      "sha256": "8bc8935ae671b98f96d0e4999b5a01cad8268528e1c197baa3665c3d66993816"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/facade_panels/facade_panels_normal_gl_1k.jpg",
+      "bytes": 360244,
+      "sha256": "5e826a27d3ea1f6adbea1d27ad11594a32c59f2f7de416d3f7723bc1ef3c476e"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/facade_panels/facade_panels_roughness_1k.jpg",
+      "bytes": 75785,
+      "sha256": "f98d44e19c45e215641ed4ad3b51a083981c9d55816142a05771a97d6dc5e54d"
+    },
+    {
+      "path": "textures/warehouse/reference/v2872/paving021/paving021_ao.jpg",
+      "bytes": 449376,
+      "sha256": "d057f309c8df4ddc1646c9ee5284325b54bffbe6df12c05f731631f04cbb2c85"
+    },
+    {
+      "path": "textures/warehouse_ground/polyhaven/asphalt_pit_lane/asphalt_pit_lane_ao_1k.jpg",
+      "bytes": 727303,
+      "sha256": "1d0b6ce32ddd7b63953bc6e657634b07ff2e3c14682854599a180fd6f7025aa3"
+    },
+    {
+      "path": "textures/warehouse_ground/polyhaven/asphalt_pit_lane/asphalt_pit_lane_diff_1k.jpg",
+      "bytes": 1015369,
+      "sha256": "8aad5097f6de913aebc33f2b9b9271834b55c6942359955722db3196a9ce9bca"
+    },
+    {
+      "path": "textures/warehouse_ground/polyhaven/asphalt_pit_lane/asphalt_pit_lane_nor_gl_1k.jpg",
+      "bytes": 1066208,
+      "sha256": "a215356a1180664fbbf94076f3720a4620a1121e137780ce98059621bf8b444e"
+    },
+    {
+      "path": "textures/warehouse_ground/polyhaven/asphalt_pit_lane/asphalt_pit_lane_rough_1k.jpg",
+      "bytes": 443992,
+      "sha256": "c6341db99340082f93b5f5252e9b0d320379d48783984618812feb238b940b67"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+NEU WIEDER EINGEBUNDENES ASPHALTMATERIAL
+
+Asphalt Pit Lane
+Autor: Dimitrios Savva
+Quelle: https://polyhaven.com/a/asphalt_pit_lane
+Lizenz: CC0
+Originale 1K-JPG-Maps, unveraendert heruntergeladen am 07.09.2026:
+https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_pit_lane/asphalt_pit_lane_diff_1k.jpg
+https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_pit_lane/asphalt_pit_lane_nor_gl_1k.jpg
+https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_pit_lane/asphalt_pit_lane_rough_1k.jpg
+https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_pit_lane/asphalt_pit_lane_ao_1k.jpg
+
+UEBRIGER BESTAND
+
+Die uebrigen 33 Laufzeitdateien stammen unveraendert aus dem vorhandenen
+RHENUS-GITHUB-ASSETS-V29.80-FINAL.zip des Projekts. Bestehende Lizenz- und
+Quellenhinweise des Projekts gelten weiter. Es wird keine neue pauschale
+Lizenz fuer diese Bestandsdateien vergeben.
+
+In V29.82 wurden keine neuen Texturen oder 3D-Modelle generiert.
