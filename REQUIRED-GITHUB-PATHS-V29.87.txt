@@ -1,0 +1,6 @@
+textures/warehouse/pbr/painted_metal_shutter/painted_metal_shutter_diff_1k.jpg
+textures/warehouse/pbr/painted_metal_shutter/painted_metal_shutter_nor_gl_1k.jpg
+textures/warehouse/pbr/painted_metal_shutter/painted_metal_shutter_rough_1k.jpg
+textures/warehouse/pbr/concrete_floor_02/concrete_floor_02_diff_1k.jpg
+textures/warehouse/pbr/concrete_floor_02/concrete_floor_02_nor_gl_1k.png
+textures/warehouse/pbr/concrete_floor_02/concrete_floor_02_rough_1k.jpg
