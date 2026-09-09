@@ -1,0 +1,10 @@
+V29.92 Dock Assets
+
+Dock Shelter Perma-Tech Commander
+- Nutzerbereitgestellte GLB-Datei.
+- Datei: models/warehouse/docks/dock_shelter_permatech_commander.glb
+
+DLHH Electrohydraulic Dock Leveler
+- Author: Maxwell autodoors (Sketchfab)
+- License: CC BY 4.0
+- Source metadata is embedded in the GLB.

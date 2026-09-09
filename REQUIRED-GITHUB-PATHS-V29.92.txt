@@ -1,0 +1,2 @@
+models/warehouse/docks/dock_shelter_permatech_commander.glb
+models/warehouse/docks/dock_leveler_dlhh.glb
