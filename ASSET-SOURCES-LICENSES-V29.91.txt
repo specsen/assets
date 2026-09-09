@@ -1,0 +1,10 @@
+V29.91 Dock Assets
+
+1) dock_leveler_dlhh.glb
+Source embedded in GLB metadata: Sketchfab, DLHH Electrohydraulic Dock Leveler
+Author: Maxwell autodoors
+License embedded in GLB metadata: CC-BY-4.0
+
+2) dock_shelter_permatech_diverter.glb
+User-supplied GLB. The file does not contain embedded source/license metadata.
+Bitte die Lizenz/Quelle vor externer Weitergabe separat dokumentieren.
