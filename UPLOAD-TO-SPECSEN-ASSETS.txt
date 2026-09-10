@@ -1,0 +1,6 @@
+Upload the contents of this ZIP to the ROOT of the GitHub repository:
+specsen/assets
+
+Keep the included folders exactly as they are:
+models/warehouse/...
+textures/warehouse/rhenus_automotive_facade_v3044/...
