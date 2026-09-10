@@ -1,0 +1,13 @@
+V29.95 - Dach
+
+Asset: Corrugated Iron 02
+Quelle: Poly Haven
+URL: https://polyhaven.com/a/corrugated_iron_02
+Autoren laut Poly Haven: Sergej Majboroda (Photography), Jenelle van Heerden (Processing)
+Lizenz: CC0
+Verwendung: Hauptdach der Logistikhalle
+
+Runtime-Dateien:
+- corrugated_iron_02_diff_4k.jpg (Original aus dem offiziellen 4K-Paket)
+- corrugated_iron_02_nor_gl_4k.png (nur Formatkonvertierung aus offizieller EXR-Normal-Map)
+- corrugated_iron_02_rough_4k.png (nur Formatkonvertierung aus offizieller EXR-Roughness-Map)
