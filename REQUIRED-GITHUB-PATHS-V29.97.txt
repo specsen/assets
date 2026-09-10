@@ -1,0 +1,4 @@
+V29.97 Dach + Sichtschutz:
+textures/warehouse/pbr/corrugated_iron_02/corrugated_iron_02_diff_4k.jpg
+textures/warehouse/pbr/corrugated_iron_02/corrugated_iron_02_nor_gl_4k.png
+textures/warehouse/pbr/corrugated_iron_02/corrugated_iron_02_rough_4k.png
