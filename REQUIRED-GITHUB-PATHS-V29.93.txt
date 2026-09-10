@@ -1,0 +1,2 @@
+models/warehouse/docks/dock_shelter_assa_abloy_ds6060a.glb
+models/warehouse/docks/dock_leveler_dlhh.glb

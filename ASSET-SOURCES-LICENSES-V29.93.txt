@@ -1,0 +1,16 @@
+V29.93 Dock Assets
+
+Dock Shelter ASSA ABLOY DS6060A Curtain Dock Shelter
+- Nutzerbereitgestellte GLB-Datei.
+- Datei: models/warehouse/docks/dock_shelter_assa_abloy_ds6060a.glb
+
+DLHH Electrohydraulic Dock Leveler
+- Author: Maxwell autodoors (Sketchfab)
+- License: CC BY 4.0
+- Source metadata is embedded in the GLB.
+
+
+ASSA ABLOY DS6060A Curtain Dock Shelter
+- Datei: models/warehouse/docks/dock_shelter_assa_abloy_ds6060a.glb
+- Quelle: vom Nutzer bereitgestellte GLB-Konvertierung des BIMobject/ASSA-ABLOY-Modells
+- Nutzung/Weitergabe: gemaess den Bedingungen der urspruenglichen Bezugsquelle.
