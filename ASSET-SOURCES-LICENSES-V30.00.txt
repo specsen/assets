@@ -1,0 +1,3 @@
+V30.00 Ladebildschirm
+- ui/loading/v3000/rhenus_ladungssicherung_loading_screen.png
+- Quelle: freigegebene, im Projekt verwendete Ladebildschirm-Grafik aus dem Chat-Verlauf.
