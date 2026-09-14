@@ -1,0 +1,17 @@
+{
+  "version": "V32.04",
+  "required_assets": [
+    {
+      "target_path": "models/site/perimeter/curb_straight_05m.glb",
+      "selected_source": "Concrete curb 0.5 meters",
+      "source_site": "Sketchfab",
+      "usage": "gerade Bordsteine entlang normaler Zaunabschnitte"
+    },
+    {
+      "target_path": "models/site/perimeter/curb_rolled_opening.glb",
+      "selected_source": "rolled / abgerundeter Bordstein aus einem Opening-Curb-Asset",
+      "source_site": "Fab / Sketchfab",
+      "usage": "abgerundete Bordsteine an Tor 1, Drehkreuz, Tor 2"
+    }
+  ]
+}
