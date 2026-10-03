@@ -1,0 +1,187 @@
+RHENUS V34.163 — MODERNER WERKSHOF MIT SEPARATEM BODEN UND 3D-DETAILS
+
+Diese Version baut auf dem gelieferten Widget V34.162 auf. Das bestätigte Motiv
+bleibt der moderne Werkshof mit Büro links und RHENUS-AUTOMOTIVE-Halle rechts.
+Der bestehende HDRI-Himmel bleibt erhalten.
+
+WAS JETZT GETRENNT IST
+
+1. Architektur: freigestellte PNG-Fotokulisse auf einer gebogenen Fläche.
+   Sichtbarer Betonvordergrund, blaue Transportgestelle, freistehende Poller und
+   hohe Hoflampen wurden aus den Fotos entfernt. Der Himmel ist transparent.
+   Die entfernte Bepflanzung bleibt Bestandteil der Kulisse.
+2. Boden: eigenständige horizontale Datei yard_floor.glb. Die Betonfläche hat
+   170 × 190 m, wiederholte Albedo-, Normal- und Roughness-Texturen sowie schmale
+   horizontale Betonfugen. Normal/Roughness sind prozedurale Materialkarten;
+   sie sind keine vermessenen Oberflächendaten der Fotovorlage.
+3. Nahe Details: echte GLB-Modelle für Transportgestelle, Paletten, Lampen,
+   Poller, Bordsteine und Rinne. Öffnungen, Füße, Bretter und Roststäbe sind
+   Geometrie. Wiederholte Objekte verwenden gemeinsame Geometrie/Materialien.
+
+DATEIEN UND INSTALLATION
+
+1. RHENUS-GITHUB-ASSETS-V34.163-WERKSHOF-3D.zip entpacken.
+2. Die Ordner models/ und textures/ mit unveränderten Unterordnern in das
+   vorhandene Repository specsen/assets auf Branch main übernehmen.
+   Die ZIP selbst nicht als einzelne Datei in das Repository hochladen.
+3. Erst nach Bereitstellung der Assets das Widget
+   RHENUS-ZOHO-V34.163-WERKSHOF-3D.zip als neue Version in Zoho importieren.
+4. Die Hauptansicht öffnen und den Bodenanschluss sowie die Randobjekte prüfen.
+   Build-Anzeige: 34.163. Nicht auf die älteren v34162-Bilddateien verweisen.
+
+Erwartete Dateipfade im Asset-Repository:
+
+models/environment/rhenus-yard/v34163/yard_floor.glb
+models/environment/rhenus-yard/v34163/blue_transport_rack.glb
+models/environment/rhenus-yard/v34163/wood_pallet.glb
+models/environment/rhenus-yard/v34163/yard_lamp.glb
+models/environment/rhenus-yard/v34163/safety_bollard.glb
+models/environment/rhenus-yard/v34163/kerb_1m.glb
+models/environment/rhenus-yard/v34163/drainage_channel_2m.glb
+
+textures/environment/rhenus-yard/v34163/werkshof-buildings-4k.png
+textures/environment/rhenus-yard/v34163/werkshof-wings-2k.png
+textures/environment/rhenus-yard/v34163/contact-soft.png
+
+Die Materialkarten concrete-basecolor.png, concrete-normal-procedural.png,
+concrete-orm-procedural.png und pallet-wood-basecolor.png liegen ebenfalls im
+Texturordner. Sie sind schon in den GLBs eingebettet; zum Laden der Modelle
+werden keine separaten Materialkarten-Anfragen benötigt.
+
+Das Widget erwartet als Basis:
+https://raw.githubusercontent.com/specsen/assets/main
+Eine andere eigene Asset-Basis lässt sich in app/asset-config.js einstellen.
+Dieses Paket stellt Dateien bereit; es veröffentlicht keine Änderungen im
+Repository und lädt das Widget nicht automatisch in Zoho hoch.
+
+MODELLMASSSTAB UND PLATZIERUNG
+
+Alle GLBs verwenden Meter, Y nach oben und einen Ursprung am Fuß/Mittelpunkt.
+Die Rinne reicht unter Y=0; die Rostoberseite liegt bei ungefähr +0,016 m.
+Die Hofoberfläche wird in der Szene auf Y=0,003 m gesetzt.
+
+Datei                       Maße / Höhe                  Platzierungen
+yard_floor.glb              170 × 190 m                   1
+blue_transport_rack.glb     1,72 × 1,34 × 1,375 m          5, in zwei Stapeln
+wood_pallet.glb             1,20 × 0,80 × 0,145 m          3
+yard_lamp.glb               6,15 m hoch                   3
+safety_bollard.glb          1,06 m hoch                   4
+kerb_1m.glb                 1,00 × 0,24 × 0,16 m          21
+drainage_channel_2m.glb     2,00 m lang                   31, insgesamt 62 m
+
+Die Gestelle werden im Hof einheitlich auf 80 % skaliert; Stapelabstand 1,10 m.
+Der LKW und die zentrale Ladefläche bleiben frei. Details stehen überwiegend
+rechts; kurze Bordsteine und Lampen liegen am linken Hofrand. Die Lampen
+sind Dekoration und erzeugen keine zusätzlichen dynamischen Lichtquellen.
+
+ANPASSEN IM PROJEKT
+
+app/games/ladungssicherung/yard-props.js
+  layout enthält alle Positionen, Drehungen und optionalen Skalierungen.
+  Die Koordinaten sind lokal zur anfänglichen LKW-Pose, nicht Bildschirm-Pixel.
+  Die Hofwurzeln kopieren diese Pose einmal und bleiben unabhängig vom LKW.
+  Modelle werden je Szene einmal geladen, Wiederholungen sind Instanzen.
+  Bei einem fehlenden Asset gibt es eine Meldung ohne automatische Ladeschleife.
+  Fehlt der GLB-Boden, bleibt eine schlichte temporäre Bodenfläche nutzbar.
+
+app/games/ladungssicherung/yard-backdrop.js
+  capture enthält die feste Referenzkamera; settings die gebogene Fotofläche.
+  Die zentrale Ansicht verwendet eine perspektivisch angepasste Texturabbildung.
+  Die Grundkontur folgt der gemessenen Bildunterkante, damit die Architektur
+  aus der Referenzkamera an den echten Boden anschließt. Sie umschließt den Hof
+  über nominal 220 Grad. Der Abstand variiert im sichtbaren Bereich etwa
+  zwischen 25 und 37 m; ein starrer Kreis würde Teile der Bildunterkante anheben.
+  Die Hauptkamera bleibt: (24, 7,5, -0,45), Ziel (0, 2,5, -0,45), FOV 0,72.
+
+app/games/ladungssicherung/ladungssicherung.js
+  Der Campus wartet auf den separaten Boden und die Details, bevor er bereit
+  meldet. Die provisorische Bodenfläche wird bei erfolgreichem GLB-Laden entfernt.
+  Die bestehende Materialpolierung überspringt die neuen Hofmaterialien.
+
+Diese Fotokulisse ist auf die Hauptkamera abgestimmt. Große Kameraänderungen
+erfordern eine neue Abstimmung von capture, Bildprojektion und Grundkontur.
+Die räumliche Tiefe im Vordergrund stammt aus Boden und Hofobjekten; die
+Gebäude bleiben eine Fotokulisse mit eingeschränkter Ansichtsänderung.
+
+Bildgrößen: Hauptdatei 3840 × 1982 Pixel, aus 1746 × 901 hochskaliert.
+Sie enthält keine neu aufgenommenen nativen 4K-Details. Seitenbild: 2172 × 724.
+Die neuen Grundmaterial-Texturen haben 1024 × 1024 Pixel; Mikrostruktur 512².
+
+LEISTUNG UND PRÜFUNG
+
+Zusätzlich zur bestehenden Spiellogik enthält der Hof rund 57.900 gerenderte
+Dreiecke einschließlich Fotoflächen, Modellwiederholungen und Kontaktflächen.
+Es gibt 7 Modellimporte pro Szene und 129 instanzierte Geometrieobjekte.
+Das ist ein Geometriebudget, keine gemessene FPS-Angabe.
+
+Die vorhandene Einstellung ohne Echtzeitschatten bleibt erhalten. Kleine
+statische Kontaktabdunklungen unter nahen Randobjekten verwenden eine einzige
+128²-Textur. Es werden keine Shadow-Maps oder zusätzlichen HDRIs erzeugt.
+
+Geprüft: GLB-Struktur, eingebettete PNGs, Maßstab, Normalen, Dreiecksorientierung,
+echter Import mit dem mitgelieferten Babylon-Loader 9.22.2 im NullEngine-Test,
+1.000 wiederholte Aufrufe ohne weitere Importe/Objekte, fehlender Boden und
+verspätete Ladeergebnisse nach Szenenabbau. JavaScript-Syntax geprüft.
+Die Texturprojektion stimmt an geprüften Mesh-Punkten innerhalb eines Pixels
+mit der Referenzkamera überein. Das ist kein visueller Render-Test.
+
+Offen: sichtbarer WebGPU-/Zoho-Test, Farb- und Bodenanschluss bei der tatsächlichen
+Fenstergröße, Texturmipmaps/Transparenz im Browser und reale FPS auf dem Zielgerät.
+Die Modellvorschau zeigt die gelieferten GLB-Dreiecke mit vereinfachter Beleuchtung
+und ist kein Screenshot des Spiels.
+
+GENERIERUNG
+
+Die Bilder wurden mit dem integrierten ImageGen erstellt/bearbeitet. Die
+Architektur wurde aus der bisherigen Referenz und Seitenaufnahme freigestellt;
+kein neues Hallenlayout und kein zweiter LKW wurden eingeführt.
+
+Verwendete Bearbeitungsanweisung für beide Architekturaufnahmen:
+Keep exact framing, aspect, camera perspective, scale, facade positions,
+RHENUS AUTOMOTIVE logo and loading-door numbering. Remove all concrete yard,
+drain and ground shadows to transparent alpha. Keep walls to their bottom edge.
+Remove all near blue racks, free-standing yellow/black bollards and tall yard
+lamp posts and reconstruct the facade behind them. Retain transparent sky,
+distant trees, planting, fence and wall-mounted lights. Do not redesign the
+architecture, move the camera, add vehicles or add people.
+
+Beton-Textur-Anweisung:
+Square seamless tileable PBR base-color photograph of subtly used light gray
+industrial yard concrete, top-down orthographic, fine aggregate, tiny pores,
+subtle low-contrast mottling, uniformly lit. No perspective, joints, borders,
+cast shadows, directional lighting, objects, text, major cracks or asphalt.
+
+Holz-Textur-Anweisung:
+Square seamless tileable PBR base-color photograph of pale tan unfinished used
+pallet softwood, fine vertical grain, small subtle knots, lightly worn gray-beige
+grain, neutral uniform light. No shadows, plank gaps, nails, board boundaries,
+borders, text, perspective or objects. Rough industrial timber, low contrast.
+
+Die GLB-Modelle wurden geometrisch erzeugt. tools/build-assets.js im Asset-Paket
+kann sie mit Node.js und @napi-rs/canvas erneut bauen. Das ist optional; die
+fertigen GLBs funktionieren ohne diesen Generator.
+
+KOPIERBARER PROJEKTPROMPT
+
+Arbeite auf Basis von RHENUS-ZOHO-V34.163-WERKSHOF-3D.zip und dem dazugehörigen
+RHENUS-GITHUB-ASSETS-V34.163-WERKSHOF-3D.zip. Verwende das bestätigte Motiv
+„Moderner Werkshof“ mit Büro links und RHENUS-AUTOMOTIVE-Halle rechts.
+
+Übernimm models/ und textures/ mit unveränderten Unterordnern in specsen/assets
+auf main. Verwende die freigestellte Architekturdatei werkshof-buildings-4k.png
+und die Seitenaufnahme werkshof-wings-2k.png unter v34163. Der Boden wird als
+yard_floor.glb horizontal dargestellt. Gestelle, Paletten, Hoflampen, Poller,
+Bordsteine und Rinne werden als die mitgelieferten echten GLB-Modelle eingebunden.
+Nutze yard-props.js für ihre gecachten Importe und Instanzen sowie yard-backdrop.js
+für die kameragerechte gebogene Fotokulisse. Behalte die vorhandene HDRI,
+Referenzkamera, LKW-Pose und Spielfunktionen bei. Bewahre die Rauheit der neuen
+Hofmaterialien; die globale Showroom-Polierung darf sie nicht überschreiben.
+
+Prüfe nach Einbindung visuell im echten Zoho-/WebGPU-Spiel: Die Architektur
+schließt am separaten Boden an, die Randobjekte schweben nicht, der LKW und
+die Arbeitsfläche bleiben frei und der Himmel kommt aus der bestehenden HDRI.
+Miss die FPS auf dem Zielgerät und kontrolliere, dass wiederholte Aufrufe in
+derselben Szene keine weiteren Importe oder zusätzlichen Modelle erzeugen.
+Prüfe den Szenenabbau bei Menüwechseln. Falls eine Position stört,
+ändere nur den betroffenen Eintrag in layout in yard-props.js. Liefere eine
+neue Widget-Version und benenne konkret, was geprüft wurde.

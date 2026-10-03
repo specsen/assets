@@ -1,0 +1,49 @@
+{
+  "version": "34.163",
+  "units": "metres",
+  "axis": "Y-up",
+  "models": [
+    {
+      "file": "yard_floor.glb",
+      "triangles": 84,
+      "primitives": 2,
+      "bytes": 2607420
+    },
+    {
+      "file": "blue_transport_rack.glb",
+      "triangles": 1324,
+      "primitives": 2,
+      "bytes": 110288
+    },
+    {
+      "file": "wood_pallet.glb",
+      "triangles": 1180,
+      "primitives": 2,
+      "bytes": 2146464
+    },
+    {
+      "file": "yard_lamp.glb",
+      "triangles": 360,
+      "primitives": 4,
+      "bytes": 30424
+    },
+    {
+      "file": "safety_bollard.glb",
+      "triangles": 412,
+      "primitives": 4,
+      "bytes": 30564
+    },
+    {
+      "file": "kerb_1m.glb",
+      "triangles": 44,
+      "primitives": 1,
+      "bytes": 4912
+    },
+    {
+      "file": "drainage_channel_2m.glb",
+      "triangles": 428,
+      "primitives": 2,
+      "bytes": 35764
+    }
+  ]
+}

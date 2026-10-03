@@ -1,0 +1,20 @@
+{
+  "babylon": "9.22.2",
+  "assetImports": 7,
+  "allAssetsReady": true,
+  "photoMeshes": 2,
+  "detailMeshes": 136,
+  "instances": 129,
+  "geometryTriangles": 57898,
+  "sceneCounts": {
+    "meshes": 206,
+    "materials": 20,
+    "textures": 4,
+    "nodes": 118
+  },
+  "repeatedCreates": 1000,
+  "projectionSamples": 669,
+  "maxUVError": 0.000027660841319124274,
+  "realTimeShadowMapsAdded": 0,
+  "visualWebGPUTest": "not run"
+}

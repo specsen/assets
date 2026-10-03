@@ -1,0 +1,138 @@
+{
+  "valid": true,
+  "models": [
+    {
+      "file": "blue_transport_rack.glb",
+      "bytes": 110288,
+      "triangles": 1324,
+      "materials": 2,
+      "embeddedTextures": 0,
+      "bounds": {
+        "min": [
+          -0.8600000143051147,
+          0,
+          -0.6700000166893005
+        ],
+        "max": [
+          0.8600000143051147,
+          1.375,
+          0.6700000166893005
+        ]
+      }
+    },
+    {
+      "file": "drainage_channel_2m.glb",
+      "bytes": 35764,
+      "triangles": 428,
+      "materials": 2,
+      "embeddedTextures": 0,
+      "bounds": {
+        "min": [
+          -0.13899999856948853,
+          -0.06700000166893005,
+          -1
+        ],
+        "max": [
+          0.13899999856948853,
+          0.01600000075995922,
+          1
+        ]
+      }
+    },
+    {
+      "file": "kerb_1m.glb",
+      "bytes": 4912,
+      "triangles": 44,
+      "materials": 1,
+      "embeddedTextures": 0,
+      "bounds": {
+        "min": [
+          -0.5,
+          0,
+          -0.11999999731779099
+        ],
+        "max": [
+          0.5,
+          0.1599999964237213,
+          0.11999999731779099
+        ]
+      }
+    },
+    {
+      "file": "safety_bollard.glb",
+      "bytes": 30564,
+      "triangles": 412,
+      "materials": 4,
+      "embeddedTextures": 0,
+      "bounds": {
+        "min": [
+          -0.15000000596046448,
+          0,
+          -0.15000000596046448
+        ],
+        "max": [
+          0.15000000596046448,
+          1.059999942779541,
+          0.15000000596046448
+        ]
+      }
+    },
+    {
+      "file": "wood_pallet.glb",
+      "bytes": 2146464,
+      "triangles": 1180,
+      "materials": 2,
+      "embeddedTextures": 1,
+      "bounds": {
+        "min": [
+          -0.6000000238418579,
+          0,
+          -0.4000000059604645
+        ],
+        "max": [
+          0.6000000238418579,
+          0.14499999582767487,
+          0.4000000059604645
+        ]
+      }
+    },
+    {
+      "file": "yard_floor.glb",
+      "bytes": 2607420,
+      "triangles": 84,
+      "materials": 2,
+      "embeddedTextures": 3,
+      "bounds": {
+        "min": [
+          -85,
+          0,
+          -95
+        ],
+        "max": [
+          85,
+          0.001500000013038516,
+          95
+        ]
+      }
+    },
+    {
+      "file": "yard_lamp.glb",
+      "bytes": 30424,
+      "triangles": 360,
+      "materials": 4,
+      "embeddedTextures": 0,
+      "bounds": {
+        "min": [
+          -0.20999999344348907,
+          0,
+          -0.20999999344348907
+        ],
+        "max": [
+          0.6299999952316284,
+          6.150000095367432,
+          0.20999999344348907
+        ]
+      }
+    }
+  ]
+}
