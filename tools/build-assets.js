@@ -4,12 +4,12 @@ const fs=require('node:fs'),path=require('node:path');
 const modules=process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES;
 const {createCanvas}=require(modules?path.join(modules,'@napi-rs/canvas'):'@napi-rs/canvas');
 const root=path.resolve(__dirname,'..');
-const assetDir=fs.existsSync(path.join(root,'assets163'))?path.join(root,'assets163'):root;
-const out=path.join(assetDir,'models/environment/rhenus-yard/v34163');
-const tex=path.join(assetDir,'textures/environment/rhenus-yard/v34163');
+const assetDir=fs.existsSync(path.join(root,'assets168'))?path.join(root,'assets168'):root;
+const out=path.join(assetDir,'models/environment/rhenus-yard/v34168');
+const tex=path.join(assetDir,'textures/environment/rhenus-yard/v34168');
 fs.mkdirSync(out,{recursive:true});fs.mkdirSync(tex,{recursive:true});
 for(const f of ['concrete-basecolor.png','pallet-wood-basecolor.png']){
-  const source=fs.existsSync(path.join(root,'materials163',f))?path.join(root,'materials163',f):path.join(tex,f);
+  const source=fs.existsSync(path.join(root,'materials168',f))?path.join(root,'materials168',f):path.join(tex,f);
   const target=path.join(tex,f);if(source!==target)fs.copyFileSync(source,target);
 }
 const sub=(a,b)=>a.map((v,i)=>v-b[i]);
@@ -56,6 +56,14 @@ const mats={
   floor:{name:'courtyard_concrete_PBR',color:[1,1,1,1],metal:0,rough:1,base:'concrete-basecolor.png',normal:'concrete-normal-procedural.png',orm:'concrete-orm-procedural.png'},
   joint:{name:'dry_sawn_concrete_joint',color:[.37,.38,.38,1],metal:0,rough:1}
 };
+Object.assign(mats,{
+ asphalt:{name:'service_lane_asphalt',color:[.22,.235,.25,1],metal:0,rough:1,base:'concrete-basecolor.png'},
+ white:{name:'loading_bay_white_paint',color:[.86,.87,.84,1],metal:0,rough:.9},
+ grass:{name:'maintained_grass_verge',color:[.15,.22,.075,1],metal:0,rough:1,base:'concrete-basecolor.png'},
+ architecture:{name:'projected_architecture_photo',color:[1,1,1,1],metal:0,rough:1,base:'training-architecture-4k.png',unlit:true,alpha:true},
+ facade:{name:'photographic_facade_volume',color:[.72,.73,.72,1],metal:0,rough:.78},
+ roof:{name:'standing_seam_roof',color:[.30,.34,.36,1],metal:.3,rough:.68}
+});
 class Model{
   constructor(name){this.name=name;this.parts=new Map();}
   part(mat){if(!this.parts.has(mat))this.parts.set(mat,{p:[],n:[],uv:[],ix:[]});return this.parts.get(mat);}
@@ -124,16 +132,24 @@ class Model{
     this.face(mat,low,[0,-1,0]);this.face(mat,high,[0,1,0]);
   }
   write(){
-    const gltf={asset:{version:'2.0',generator:'Rhenus courtyard asset builder V34.163'},scene:0,scenes:[{nodes:[0]}],nodes:[{name:this.name,mesh:0}],meshes:[{name:this.name,primitives:[]}],materials:[],buffers:[{byteLength:0}],bufferViews:[],accessors:[],samplers:[{magFilter:9729,minFilter:9987,wrapS:10497,wrapT:10497}],textures:[],images:[],extras:{units:'metres',upAxis:'Y',origin:'foot-centre',purpose:'decorative yard environment'}};
+    const gltf={asset:{version:'2.0',generator:'Rhenus courtyard asset builder V34.168'},scene:0,scenes:[{nodes:[0]}],nodes:[{name:this.name,mesh:0}],meshes:[{name:this.name,primitives:[]}],materials:[],buffers:[{byteLength:0}],bufferViews:[],accessors:[],samplers:[{magFilter:9729,minFilter:9987,wrapS:10497,wrapT:10497},{magFilter:9729,minFilter:9987,wrapS:33071,wrapT:33071}],textures:[],images:[],extras:{units:'metres',upAxis:'Y',origin:'foot-centre',purpose:'decorative yard environment'}};
     const chunks=[];let size=0;const textureIndices=new Map();
     function bytes(buffer,target){const pad=(4-size%4)%4;if(pad){chunks.push(Buffer.alloc(pad));size+=pad;}const offset=size;chunks.push(buffer);size+=buffer.length;const v={buffer:0,byteOffset:offset,byteLength:buffer.length};if(target)v.target=target;gltf.bufferViews.push(v);return gltf.bufferViews.length-1;}
     function accessor(values,type,integer=false){const comp={SCALAR:1,VEC2:2,VEC3:3}[type],array=integer?new Uint32Array(values):new Float32Array(values),view=bytes(Buffer.from(array.buffer),integer?34963:34962);const a={bufferView:view,componentType:integer?5125:5126,count:values.length/comp,type};if(type==='VEC3'){a.min=[Infinity,Infinity,Infinity];a.max=[-Infinity,-Infinity,-Infinity];for(let i=0;i<values.length;i++) {a.min[i%3]=Math.min(a.min[i%3],values[i]);a.max[i%3]=Math.max(a.max[i%3],values[i]);}}gltf.accessors.push(a);return gltf.accessors.length-1;}
-    function texture(file){if(textureIndices.has(file))return textureIndices.get(file);const view=bytes(fs.readFileSync(path.join(tex,file)));gltf.images.push({name:file,mimeType:'image/png',bufferView:view});gltf.textures.push({sampler:0,source:gltf.images.length-1});const index=gltf.textures.length-1;textureIndices.set(file,index);return index;}
-    for(const [key,q] of this.parts){
+    function texture(file){if(textureIndices.has(file))return textureIndices.get(file);const view=bytes(fs.readFileSync(path.join(tex,file)));gltf.images.push({name:file,mimeType:'image/png',bufferView:view});gltf.textures.push({sampler:file.startsWith('training-')?1:0,source:gltf.images.length-1});const index=gltf.textures.length-1;textureIndices.set(file,index);return index;}
+    for(const [key,part] of this.parts){
+      let q=part;
+      // Babylon's glTF import root reflects X (rotationY PI, scaleZ -1).
+      if(this.yardSpace){
+        q={p:part.p.map((v,i)=>i%3===0?-v:v),n:part.n.map((v,i)=>i%3===0?-v:v),uv:part.uv,ix:part.ix.slice()};
+        for(let i=0;i<q.ix.length;i+=3)[q.ix[i+1],q.ix[i+2]]=[q.ix[i+2],q.ix[i+1]];
+      }
       const spec=mats[key],mat={name:spec.name,pbrMetallicRoughness:{baseColorFactor:spec.color,metallicFactor:spec.metal,roughnessFactor:spec.rough}};
       if(spec.base)mat.pbrMetallicRoughness.baseColorTexture={index:texture(spec.base)};
       if(spec.orm)mat.pbrMetallicRoughness.metallicRoughnessTexture={index:texture(spec.orm)};
       if(spec.normal)mat.normalTexture={index:texture(spec.normal),scale:.35};
+      if(spec.unlit){mat.extensions={KHR_materials_unlit:{}};gltf.extensionsUsed=['KHR_materials_unlit'];}
+      if(spec.alpha){mat.alphaMode='MASK';mat.alphaCutoff=.18;mat.doubleSided=true;}
       gltf.materials.push(mat);
       gltf.meshes[0].primitives.push({attributes:{POSITION:accessor(q.p,'VEC3'),NORMAL:accessor(q.n,'VEC3'),TEXCOORD_0:accessor(q.uv,'VEC2')},indices:accessor(q.ix,'SCALAR',true),material:gltf.materials.length-1,mode:4});
     }
@@ -143,12 +159,25 @@ class Model{
     return {file:this.name+'.glb',triangles:[...this.parts.values()].reduce((s,q)=>s+q.ix.length/3,0),primitives:this.parts.size,bytes:12+8+json.length+8+bin.length};
   }
 }
+
 const report=[];
-const floor=new Model('yard_floor');
-floor.face('floor',[[-85,0,-95],[-85,0,95],[85,0,95],[85,0,-95]],[0,1,0],[[0,0],[0,47.5],[42.5,47.5],[42.5,0]]);
-// Sawn joints are horizontal strips; no fake joints on the photographic wall.
-for(let x=-48;x<=48;x+=4.8)floor.face('joint',[[x-.008,.0015,-56],[x-.008,.0015,56],[x+.008,.0015,56],[x+.008,.0015,-56]],[0,1,0]);
-for(let z=-56;z<=56;z+=5.6)floor.face('joint',[[-48,.0015,z-.008],[-48,.0015,z+.008],[48,.0015,z+.008],[48,.0015,z-.008]],[0,1,0]);
+const floor=new Model('yard_floor');floor.yardSpace=true;
+function ground(model,mat,x0,x1,z0,z1,y=0,tile=4){model.face(mat,[[x0,y,z0],[x0,y,z1],[x1,y,z1],[x1,y,z0]],[0,1,0],[[x0/tile,z0/tile],[x0/tile,z1/tile],[x1/tile,z1/tile],[x1/tile,z0/tile]]);}
+ground(floor,'asphalt',-300,80,-180,180,-.005);
+ground(floor,'floor',-54,9,-39,22,0);
+for(let x=-51;x<=8;x+=4.8)ground(floor,'joint',x-.005,x+.005,-39,22,.0015);
+for(let z=-37;z<=21;z+=5.6)ground(floor,'joint',-54,9,z-.005,z+.005,.0015);
+ground(floor,'white',-3.1,-2.99,-12.9,10.9,.0025);
+ground(floor,'white',4.4,4.51,-12.9,10.9,.0025);
+ground(floor,'white',-3.1,4.51,-12.9,-12.79,.0025);
+ground(floor,'white',-3.1,4.51,10.79,10.9,.0025);
+ground(floor,'floor',-37,-30,-36,-26,.08);
+ground(floor,'yellow',-30.12,-30.02,-36,-26,.081);
+for(let z=-35.5;z<-26;z+=1.3)ground(floor,'yellow',-32,-30.25,z,z+.12,.082);
+ground(floor,'grass',-260,-55,-170,12,.005,3);
+ground(floor,'grass',-260,-55,24,170,.005,3);
+ground(floor,'grass',-55,0,26,170,.005,3);
+for(let x=-235;x<-55;x+=12)ground(floor,'white',x,x+4.5,17.85,17.95,.008);
 report.push(floor.write());
 const rack=new Model('blue_transport_rack');
 for(const x of [-.78,.78])for(const z of [-.59,.59]){
@@ -198,5 +227,68 @@ drain.box('edge',.018,.035,2,[-.13,-.01,0],.001);drain.box('edge',.018,.035,2,[.
 for(let z=-.95;z<=.951;z+=.095)drain.box('dark',.242,.018,.035,[0,.007,z],0);
 drain.box('dark',.026,.012,1.96,[0,-.004,0],.001);
 report.push(drain.write());
-fs.writeFileSync(path.join(out,'asset-metrics.json'),JSON.stringify({version:'34.163',units:'metres',axis:'Y-up',models:report},null,2)+'\n');
+
+const capture={x:16.5,y:5.65,z:.6,targetX:0,targetY:2.28,targetZ:.6,fov:.72,aspect:16/9};
+const pitch=Math.atan2(capture.y-capture.targetY,capture.x),co=Math.cos(pitch),si=Math.sin(pitch);
+const tanV=Math.tan(capture.fov/2),tanH=tanV*capture.aspect;
+const textureFrame={scaleU:.765,scaleV:.85,offsetV:-.017};
+function sourceRay(px,py){
+ const u=px/1672*textureFrame.scaleU,v=py/941*textureFrame.scaleV+textureFrame.offsetV,up=(1-2*v)*tanV;
+ return {o:[capture.x,capture.y,capture.z],d:[-co-si*up,-si+co*up,(2*u-1)*tanH]};
+}
+function atGround(px,py){const r=sourceRay(px,py);return add(r.o,scale(r.d,-r.o[1]/r.d[1]));}
+function photoUV(p){
+ const dx=p[0]-capture.x,dy=p[1]-capture.y,dz=p[2]-capture.z,depth=-co*dx-si*dy,up=-si*dx+co*dy;
+ return [(.5+dz/(2*depth*tanH))/textureFrame.scaleU,((.5-up/(2*depth*tanV))-textureFrame.offsetV)/textureFrame.scaleV];
+}
+function rayPlane(px,py,a,n){const r=sourceRay(px,py),t=dot(sub(a,r.o),n)/dot(r.d,n);return add(r.o,scale(r.d,t));}
+const buildings=new Model('training_buildings');buildings.yardSpace=true;
+function photoFace(pts,n){
+ const steps=18;
+ for(let row=0;row<steps;row++)for(let col=0;col<steps;col++){
+  const point=(u,v)=>add(scale(add(scale(pts[0],1-u),scale(pts[1],u)),1-v),scale(add(scale(pts[3],1-u),scale(pts[2],u)),v));
+  const p=[point(col/steps,row/steps),point((col+1)/steps,row/steps),point((col+1)/steps,(row+1)/steps),point(col/steps,(row+1)/steps)];
+  buildings.face('architecture',p,n,p.map(photoUV));
+ }
+}
+const buildingMeasurements=[];
+function volume(name,left,right,topLeft,topRight,depth){
+ const a=atGround(...left),b=atGround(...right),along=unit(sub(b,a));
+ let normal=[along[2],0,-along[0]];if(dot(normal,sub([capture.x,capture.y,capture.z],a))<0)normal=scale(normal,-1);
+ const topA=rayPlane(...topLeft,a,normal),topB=rayPlane(...topRight,a,normal),back=scale(normal,-depth);
+ photoFace([a,b,topB,topA],normal);
+ const aa=add(a,back),bb=add(b,back),ta=add(topA,back),tb=add(topB,back);
+ buildings.face('facade',[aa,bb,tb,ta],scale(normal,-1));
+ buildings.face('facade',[a,aa,ta,topA],scale(along,-1));
+ buildings.face('facade',[b,topB,tb,bb],along);
+ buildings.face('roof',[topA,ta,tb,topB],[0,1,0]);
+ buildingMeasurements.push({name,frontA:a,frontB:b,topA,topB,depth});
+ return {a,b,normal,along,topA,topB};
+}
+const office=volume('office',[0,431],[568,399],[0,-88],[568,123],14);
+volume('connector',[568,399],[721,391],[568,166],[721,201],13);
+volume('workshop',[721,391],[1384,391],[721,216],[1384,238],18);
+const canopyA=rayPlane(148,239,office.a,office.normal),canopyB=rayPlane(517,274,office.a,office.normal);
+const canopyY=(canopyA[1]+canopyB[1])*.5;
+const ca=[canopyA[0],canopyY,canopyA[2]],cb=[canopyB[0],canopyY,canopyB[2]];
+const cf=add(ca,scale(office.normal,2.5)),cg=add(cb,scale(office.normal,2.5));
+buildings.face('roof',[ca,cb,cg,cf],[0,1,0]);buildings.face('dark',[ca,cf,cg,cb],[0,-1,0]);
+buildings.beam('dark',cf,cg,.30,.20);buildings.beam('dark',ca,cf,.22,.20);buildings.beam('dark',cb,cg,.22,.20);
+for(const p of [cf,cg]){buildings.box('dark',.18,canopyY,.18,[p[0],canopyY/2,p[2]],.01);buildings.box('edge',.32,.025,.32,[p[0],.013,p[2]],.008);}
+report.push(buildings.write());
+const fence=new Model('fence_panel_3m');
+for(const x of [-1.48,1.48])fence.box('dark',.075,2.1,.075,[x,1.05,0],.003);
+for(const y of [.22,1,1.96])fence.box('dark',2.94,.035,.032,[0,y,0],.002);
+for(let x=-1.35;x<1.4;x+=.15)fence.box('dark',.011,1.78,.011,[x,1.1,0],0);
+report.push(fence.write());
+const gate=new Model('sliding_gate_6m');
+for(const x of [-3,3])gate.box('dark',.13,2.2,.13,[x,1.1,0],.006);
+for(const y of [.18,2.12])gate.box('dark',6,.12,.12,[0,y,0],.005);
+for(let x=-2.8;x<2.9;x+=.18)gate.box('dark',.028,1.82,.028,[x,1.14,0],.002);
+gate.beam('dark',[-2.9,.27,.04],[2.9,2.03,.04],.04,.03);
+for(const x of [-2.4,2.4])gate.cylinder('rubber',.09,.09,.04,.15,x,0,12);
+report.push(gate.write());
+fs.writeFileSync(path.join(out,'asset-metrics.json'),JSON.stringify({version:'34.168',units:'metres',axis:'Y-up',models:report,capture,textureFrame,buildings:buildingMeasurements},null,2)+'\n');
+fs.writeFileSync(path.join(assetDir,'camera-and-architecture.json'),JSON.stringify({capture,textureFrame,buildings:buildingMeasurements},null,2)+'\n');
 console.log(JSON.stringify(report,null,2));
+

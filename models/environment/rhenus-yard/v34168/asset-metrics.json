@@ -1,0 +1,156 @@
+{
+  "version": "34.168",
+  "units": "metres",
+  "axis": "Y-up",
+  "models": [
+    {
+      "file": "yard_floor.glb",
+      "triangles": 116,
+      "primitives": 6,
+      "bytes": 2616340
+    },
+    {
+      "file": "blue_transport_rack.glb",
+      "triangles": 1324,
+      "primitives": 2,
+      "bytes": 110352
+    },
+    {
+      "file": "wood_pallet.glb",
+      "triangles": 1180,
+      "primitives": 2,
+      "bytes": 2146528
+    },
+    {
+      "file": "yard_lamp.glb",
+      "triangles": 360,
+      "primitives": 4,
+      "bytes": 30488
+    },
+    {
+      "file": "safety_bollard.glb",
+      "triangles": 412,
+      "primitives": 4,
+      "bytes": 30628
+    },
+    {
+      "file": "kerb_1m.glb",
+      "triangles": 44,
+      "primitives": 1,
+      "bytes": 4976
+    },
+    {
+      "file": "drainage_channel_2m.glb",
+      "triangles": 428,
+      "primitives": 2,
+      "bytes": 35828
+    },
+    {
+      "file": "training_buildings.glb",
+      "triangles": 2184,
+      "primitives": 5,
+      "bytes": 2166328
+    },
+    {
+      "file": "fence_panel_3m.glb",
+      "triangles": 448,
+      "primitives": 1,
+      "bytes": 36744
+    },
+    {
+      "file": "sliding_gate_6m.glb",
+      "triangles": 1684,
+      "primitives": 2,
+      "bytes": 138528
+    }
+  ],
+  "capture": {
+    "x": 16.5,
+    "y": 5.65,
+    "z": 0.6,
+    "targetX": 0,
+    "targetY": 2.28,
+    "targetZ": 0.6,
+    "fov": 0.72,
+    "aspect": 1.7777777777777777
+  },
+  "textureFrame": {
+    "scaleU": 0.765,
+    "scaleV": 0.85,
+    "offsetV": -0.017
+  },
+  "buildings": [
+    {
+      "name": "office",
+      "frontA": [
+        -36.780608566567636,
+        0,
+        -35.08870492905229
+      ],
+      "frontB": [
+        -50.495887393533906,
+        0,
+        -20.85746997688963
+      ],
+      "topA": [
+        -38.19737565150827,
+        17.91497901095224,
+        -33.61864037457611
+      ],
+      "topB": [
+        -51.07092787254521,
+        12.09396026463974,
+        -20.260797006032917
+      ],
+      "depth": 14
+    },
+    {
+      "name": "connector",
+      "frontA": [
+        -50.495887393533906,
+        0,
+        -20.85746997688963
+      ],
+      "frontB": [
+        -55.0772048685665,
+        -8.881784197001252e-16,
+        -15.62382621069552
+      ],
+      "topA": [
+        -50.94829108167954,
+        10.251781548611888,
+        -20.340649268617323
+      ],
+      "topB": [
+        -55.375821092163164,
+        8.949769155407054,
+        -15.282690512148456
+      ],
+      "depth": 13
+    },
+    {
+      "name": "workshop",
+      "frontA": [
+        -55.0772048685665,
+        -8.881784197001252e-16,
+        -15.62382621069552
+      ],
+      "frontB": [
+        -55.0772048685665,
+        -8.881784197001252e-16,
+        13.305959276089563
+      ],
+      "topA": [
+        -55.0772048685665,
+        8.246919552348439,
+        -15.248100946025309
+      ],
+      "topB": [
+        -55.0772048685665,
+        7.231216909994398,
+        13.047944722535263
+      ],
+      "depth": 18
+    }
+  ]
+}

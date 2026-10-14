@@ -1,0 +1,88 @@
+{
+  "version": "34.168",
+  "valid": true,
+  "babylon": "9.22.2",
+  "models": [
+    {
+      "file": "blue_transport_rack.glb",
+      "bytes": 110352,
+      "triangles": 1324,
+      "materials": 2,
+      "embeddedTextures": 0
+    },
+    {
+      "file": "drainage_channel_2m.glb",
+      "bytes": 35828,
+      "triangles": 428,
+      "materials": 2,
+      "embeddedTextures": 0
+    },
+    {
+      "file": "fence_panel_3m.glb",
+      "bytes": 36744,
+      "triangles": 448,
+      "materials": 1,
+      "embeddedTextures": 0
+    },
+    {
+      "file": "kerb_1m.glb",
+      "bytes": 4976,
+      "triangles": 44,
+      "materials": 1,
+      "embeddedTextures": 0
+    },
+    {
+      "file": "safety_bollard.glb",
+      "bytes": 30628,
+      "triangles": 412,
+      "materials": 4,
+      "embeddedTextures": 0
+    },
+    {
+      "file": "sliding_gate_6m.glb",
+      "bytes": 138528,
+      "triangles": 1684,
+      "materials": 2,
+      "embeddedTextures": 0
+    },
+    {
+      "file": "training_buildings.glb",
+      "bytes": 2166328,
+      "triangles": 2184,
+      "materials": 5,
+      "embeddedTextures": 1
+    },
+    {
+      "file": "wood_pallet.glb",
+      "bytes": 2146528,
+      "triangles": 1180,
+      "materials": 2,
+      "embeddedTextures": 1
+    },
+    {
+      "file": "yard_floor.glb",
+      "bytes": 2616340,
+      "triangles": 116,
+      "materials": 6,
+      "embeddedTextures": 3
+    },
+    {
+      "file": "yard_lamp.glb",
+      "bytes": 30488,
+      "triangles": 360,
+      "materials": 4,
+      "embeddedTextures": 0
+    }
+  ],
+  "imports": 10,
+  "instances": 185,
+  "geometryTriangles": 38938,
+  "repeatCreates": 1000,
+  "projectionSamples": 238,
+  "maxUVError": 0.00006161071359889192,
+  "narrowViewportFov": 0.839223723497946,
+  "realTimeShadowMapsAdded": 0,
+  "visualWebGPUTest": "not run",
+  "fps": "not measured",
+  "failureAndDisposalChecks": "passed"
+}
