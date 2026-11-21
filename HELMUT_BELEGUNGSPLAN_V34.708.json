@@ -1,0 +1,148 @@
+{
+  "version": "V34.708",
+  "source_version": "V34.707",
+  "verified_speech_transcript": false,
+  "note": "MP3-Nummerierung folgt den ElevenLabs-Erstellungszeiten. Hörinhalt nicht automatisch verifiziert. Bitte bei Abnahme gegen Stationsinhalt hören.",
+  "steps": [
+    {
+      "station": 1,
+      "title": "Dein Auftrag",
+      "selector": "#trainingPhaseHeader .tphOrderBlock",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_01.mp3",
+      "original": "ElevenLabs_2026-11-21T10_02_07_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3788,
+      "sha256": "3a4e8af3048cfaf78ede7cebf61900ac7da5fd5eeb9eff4ec4e75917b3435320",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 2,
+      "title": "Trainingsfortschritt",
+      "selector": "#trainingPhaseHeader .tphCenter",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_02.mp3",
+      "original": "ElevenLabs_2026-11-21T10_02_46_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 4989,
+      "sha256": "5e884d7d7e8d2547ad646d62e12c1dd656249e37397a341eb17926d8b19334b9",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 3,
+      "title": "Gewähltes Fahrzeug",
+      "selector": "#trainingPhaseHeader .tphVehicleBlock",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_03.mp3",
+      "original": "ElevenLabs_2026-11-21T10_03_40_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3239,
+      "sha256": "d896f9bbeabff889b527bfeb9b4cabf93d2ccb6ca7a4e15d6cd42fbc53a2047c",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 4,
+      "title": "Anzahl der Ladeeinheiten",
+      "selector": "#trainingPhaseHeader .tphCargoBlock",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_04.mp3",
+      "original": "ElevenLabs_2026-11-21T10_05_50_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 4049,
+      "sha256": "a810be424ccbb1b2e795ea56ce6ed7814d66477fd4c4b8559765e4dc9475f298",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 5,
+      "title": "Deine Trainingszeit",
+      "selector": "#trainingPhaseHeader .tphTimeBlock",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_05.mp3",
+      "original": "ElevenLabs_2026-11-21T10_06_38_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3474,
+      "sha256": "099f1ed572ca93cba762ea90bf678e809cda89a30c3967439a2de9cb62b38526",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 6,
+      "title": "Menü und Einstellungen",
+      "selector": "#trainingPhaseMenuBtn",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_06.mp3",
+      "original": "ElevenLabs_2026-11-21T10_07_44_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 4362,
+      "sha256": "6e89a10a5f5cfb0ea558187a042adbbe75ea53aeb774b501022f235510f264fa",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 7,
+      "title": "Aktuelle Aufgabe",
+      "selector": "#loadingObjectiveCard",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_07.mp3",
+      "original": "ElevenLabs_2026-11-21T10_33_45_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3788,
+      "sha256": "39e56c0d8335891baa3c873b9286b6195bcfddf955ee79448534700d0419b79e",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 8,
+      "title": "Aktuelle Ladung",
+      "selector": "#loadingCurrentCard",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_08.mp3",
+      "original": "ElevenLabs_2026-11-21T10_34_21_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 4911,
+      "sha256": "8845a88a6db02e4db50b70885f3473e482744d484824ad29bc7fce4009b0733f",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 9,
+      "title": "Ladung auswählen",
+      "selector": "#loadingReferenceHud .loadingSelectionPanel",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_09.mp3",
+      "original": "ElevenLabs_2026-11-21T10_34_52_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 4206,
+      "sha256": "b4f5dce8743e36e3a5644a633cda4b16dfe203a324f847e9579d8607c2421b19",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 10,
+      "title": "Nutzlast",
+      "selector": "#loadingBottomDeckHud .loadingStatusCard",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_10.mp3",
+      "original": "ElevenLabs_2026-11-21T10_35_15_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3971,
+      "sha256": "f673b5862114f088ac1802f67fd1e94a8a8cfba3ffe2e9a7ca0a9a279748d263",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 11,
+      "title": "Auflieger in Draufsicht",
+      "selector": "#loadingBottomDeckHud .loadingHudOverhead",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_11.mp3",
+      "original": "ElevenLabs_2026-11-21T10_35_56_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3553,
+      "sha256": "ba491a490d52855bf1181886721baaf313da89210613faf4ee65c65029b54647",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 12,
+      "title": "Schwerpunkt",
+      "selector": "#loadingBottomDeckHud .loadingHudBalance",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_12.mp3",
+      "original": "ElevenLabs_2026-11-21T10_36_17_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3788,
+      "sha256": "86a9eb4770c76c718889d405c1e02bd40ecd215b9494940271827d703b5ca426",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 13,
+      "title": "Ladungsverteilung",
+      "selector": "#loadingBottomDeckHud .loadingDistributionBlock",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_13.mp3",
+      "original": "ElevenLabs_2026-11-21T10_36_53_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3553,
+      "sha256": "edbdfa803c49a478000e9036a9cecb4dc95cf5b42f82ebe2cd4b97d4ac3b2400",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    },
+    {
+      "station": 14,
+      "title": "Nächster Schritt",
+      "selector": "#loadingBottomDeckHud .loadingHudAction",
+      "audio": "app/audio/ladungssicherung/helmut_beladen/hud_14.mp3",
+      "original": "ElevenLabs_2026-11-21T10_37_17_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 3318,
+      "sha256": "c11ea728bb2870353bc63ed05e58280b786cd7a2593350b3ef689bc045f383ee",
+      "mapping": "vorläufig nach Aufnahmereihenfolge"
+    }
+  ]
+}

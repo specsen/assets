@@ -1,0 +1,96 @@
+{
+  "version": "V34.709",
+  "source_version": "V34.708",
+  "verified_speech_transcript": false,
+  "note": "Die MP3-Dateien sind in chronologischer Erstellungsreihenfolge den 8 bestehenden Verzurr-Stationen zugewiesen. Die konkreten gesprochenen Sätze sind nicht transkribiert und müssen gegen die Stationsüberschriften probegehört werden.",
+  "steps": [
+    {
+      "station": 1,
+      "title": "Sicherungsmittel",
+      "selector": "#lashingHud .lhToolCard",
+      "audio": "app/audio/ladungssicherung/helmut_verzurren/hud_01.mp3",
+      "original": "ElevenLabs_2026-11-21T10_38_28_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 5068,
+      "size_bytes": 98021,
+      "sha256": "5e6ec7a1a1fb2556a3cf786c1af22f0dd02a57dc21e37dcebfa4a24749334584",
+      "mapping": "vorläufig nach ElevenLabs-Erstellungsreihenfolge; Sprechinhalt nicht transkribiert"
+    },
+    {
+      "station": 2,
+      "title": "Sicherungsmittel auswählen",
+      "selector": "#lashingToolSelectBtn",
+      "audio": "app/audio/ladungssicherung/helmut_verzurren/hud_02.mp3",
+      "original": "ElevenLabs_2026-11-21T10_38_47_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 5642,
+      "size_bytes": 107216,
+      "sha256": "4517e8d4a3637644e20b261b1a08e933711a0dbf069f3ac50840b19461ad567a",
+      "mapping": "vorläufig nach ElevenLabs-Erstellungsreihenfolge; Sprechinhalt nicht transkribiert"
+    },
+    {
+      "station": 3,
+      "title": "Zurrfortschritt",
+      "selector": "#lashingFooter .lfStatusSection",
+      "audio": "app/audio/ladungssicherung/helmut_verzurren/hud_03.mp3",
+      "original": "ElevenLabs_2026-11-21T10_39_07_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 5799,
+      "size_bytes": 109723,
+      "sha256": "b778a32eb8576aed72d09dfdf295c6f5c20b8404b057544284eff664affbdb47",
+      "mapping": "vorläufig nach ElevenLabs-Erstellungsreihenfolge; Sprechinhalt nicht transkribiert"
+    },
+    {
+      "station": 4,
+      "title": "Zurrmittel im Einsatz",
+      "selector": "#lashingFooter .lfMaterialsSection",
+      "audio": "app/audio/ladungssicherung/helmut_verzurren/hud_04.mp3",
+      "original": "ElevenLabs_2026-11-21T10_39_30_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 5486,
+      "size_bytes": 104708,
+      "sha256": "fd3b18e775da0f2430a8c24894d0161974c95cf352aeaf0d07f79bc881cccf13",
+      "mapping": "vorläufig nach ElevenLabs-Erstellungsreihenfolge; Sprechinhalt nicht transkribiert"
+    },
+    {
+      "station": 5,
+      "title": "Auflieger in Draufsicht",
+      "selector": "#lashingFooter .lfOverviewSection",
+      "audio": "app/audio/ladungssicherung/helmut_verzurren/hud_05.mp3",
+      "original": "ElevenLabs_2026-11-21T10_39_51_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 5251,
+      "size_bytes": 100946,
+      "sha256": "cff5ca0707ced184e2a6e3aced84d679689649cd8b1336659168a463a234929b",
+      "mapping": "vorläufig nach ElevenLabs-Erstellungsreihenfolge; Sprechinhalt nicht transkribiert"
+    },
+    {
+      "station": 6,
+      "title": "Testfahrt-Vorschau",
+      "selector": "#lashingFooter .lfSimulationSection",
+      "audio": "app/audio/ladungssicherung/helmut_verzurren/hud_06.mp3",
+      "original": "ElevenLabs_2026-11-21T10_40_12_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 5721,
+      "size_bytes": 108470,
+      "sha256": "d8a9203633e7026a748dbd8bf842fd8ed7016c3335e310d6f08218419ed3b3d6",
+      "mapping": "vorläufig nach ElevenLabs-Erstellungsreihenfolge; Sprechinhalt nicht transkribiert"
+    },
+    {
+      "station": 7,
+      "title": "Prüfpunkte",
+      "selector": "#lashingFooter .lfChecksSection",
+      "audio": "app/audio/ladungssicherung/helmut_verzurren/hud_07.mp3",
+      "original": "ElevenLabs_2026-11-21T10_41_07_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 5329,
+      "size_bytes": 102200,
+      "sha256": "57620d0ff52ed1e531b63ae0a31f18c9db6f53836ba19b4bb4c17d419284f569",
+      "mapping": "vorläufig nach ElevenLabs-Erstellungsreihenfolge; Sprechinhalt nicht transkribiert"
+    },
+    {
+      "station": 8,
+      "title": "Nächster Schritt",
+      "selector": "#nextPhaseBtn",
+      "audio": "app/audio/ladungssicherung/helmut_verzurren/hud_08.mp3",
+      "original": "ElevenLabs_2026-11-21T10_42_14_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "duration_ms": 6531,
+      "size_bytes": 121426,
+      "sha256": "a1293b66f692c86f02db4b549bc10f5fc807bed3b1a634c6acc79971a62831e1",
+      "mapping": "vorläufig nach ElevenLabs-Erstellungsreihenfolge; Sprechinhalt nicht transkribiert"
+    }
+  ]
+}
