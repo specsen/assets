@@ -1,0 +1,38 @@
+{
+  "version": "V34.712",
+  "new_files": 3,
+  "total_mp3": 39,
+  "mapping_status": "VORLÄUFIG: technische Zuordnung anhand Dateireihenfolge. Inhaltliche Zuordnung der gesagten Sätze muss durch Probehören bestätigt werden.",
+  "audio_files": [
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_01.mp3",
+      "original_file": "ElevenLabs_2026-11-21T11_44_41_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "phase": "loading",
+      "trigger": "Beladen / nach abgeschlossener HUD-Einweisung",
+      "seconds": 5.486,
+      "sha256": "41311738465c689afdc2c61d38718c45b7f98f3d693e79e49bab0e2663d39fe3"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_02.mp3",
+      "original_file": "ElevenLabs_2026-11-21T11_45_02_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "phase": "lashing",
+      "trigger": "Verzurren / nach abgeschlossener HUD-Einweisung",
+      "seconds": 8.673,
+      "sha256": "334414c065c44f11a8b6880e6d997e8bb0648b61fa099c1c50d731b61202986a"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_03.mp3",
+      "original_file": "ElevenLabs_2026-11-21T11_56_25_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "phase": "drive",
+      "trigger": "Testfahrt / nach abgeschlossener HUD-Einweisung",
+      "seconds": 8.124,
+      "sha256": "fb797db5b1e4a66d5eca501d3dd9c42edf78597a19bcd3a576d54763ee0f1f18"
+    }
+  ],
+  "playing_rules": {
+    "play_once": "bei abgeschlossenem HUD-Tutorial der jeweiligen Phase",
+    "skip_behavior": "bei ESC oder Tutorial-Abbruch keine neue Aufnahme",
+    "phase_change": "unterbricht die laufende Begleitaufnahme",
+    "audio_missing": "keine Blockade für Training oder HUD"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "version": "V34.711",
+  "repository_root": "audio/ladungssicherung",
+  "files": [
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_01.mp3",
+      "sha256": "3a4e8af3048cfaf78ede7cebf61900ac7da5fd5eeb9eff4ec4e75917b3435320",
+      "size_bytes": 77541
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_02.mp3",
+      "sha256": "5e884d7d7e8d2547ad646d62e12c1dd656249e37397a341eb17926d8b19334b9",
+      "size_bytes": 96767
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_03.mp3",
+      "sha256": "d896f9bbeabff889b527bfeb9b4cabf93d2ccb6ca7a4e15d6cd42fbc53a2047c",
+      "size_bytes": 68763
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_04.mp3",
+      "sha256": "a810be424ccbb1b2e795ea56ce6ed7814d66477fd4c4b8559765e4dc9475f298",
+      "size_bytes": 81720
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_05.mp3",
+      "sha256": "099f1ed572ca93cba762ea90bf678e809cda89a30c3967439a2de9cb62b38526",
+      "size_bytes": 72525
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_06.mp3",
+      "sha256": "6e89a10a5f5cfb0ea558187a042adbbe75ea53aeb774b501022f235510f264fa",
+      "size_bytes": 86736
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_07.mp3",
+      "sha256": "39e56c0d8335891baa3c873b9286b6195bcfddf955ee79448534700d0419b79e",
+      "size_bytes": 77541
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_08.mp3",
+      "sha256": "8845a88a6db02e4db50b70885f3473e482744d484824ad29bc7fce4009b0733f",
+      "size_bytes": 95513
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_09.mp3",
+      "sha256": "b4f5dce8743e36e3a5644a633cda4b16dfe203a324f847e9579d8607c2421b19",
+      "size_bytes": 84228
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_10.mp3",
+      "sha256": "f673b5862114f088ac1802f67fd1e94a8a8cfba3ffe2e9a7ca0a9a279748d263",
+      "size_bytes": 80466
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_11.mp3",
+      "sha256": "ba491a490d52855bf1181886721baaf313da89210613faf4ee65c65029b54647",
+      "size_bytes": 73779
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_12.mp3",
+      "sha256": "86a9eb4770c76c718889d405c1e02bd40ecd215b9494940271827d703b5ca426",
+      "size_bytes": 77541
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_13.mp3",
+      "sha256": "edbdfa803c49a478000e9036a9cecb4dc95cf5b42f82ebe2cd4b97d4ac3b2400",
+      "size_bytes": 73779
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_beladen/hud_14.mp3",
+      "sha256": "c11ea728bb2870353bc63ed05e58280b786cd7a2593350b3ef689bc045f383ee",
+      "size_bytes": 70017
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_01.mp3",
+      "sha256": "210c638aa9db63c30cf098fa43635876a2f10e5b01dd0972589d416d553877b5",
+      "size_bytes": 107216
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_02.mp3",
+      "sha256": "69ae98e5d1a4a2c4057cc5638abe47eebf4f8bcb5e896c971461cf20d00def3b",
+      "size_bytes": 117247
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_03.mp3",
+      "sha256": "8ce92e7aef446eea55961ab4f2d3e82a53d0ca7b8566ce0d2510f2dd9ff9354e",
+      "size_bytes": 86736
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_04.mp3",
+      "sha256": "e014244722a03caff140d3ac7278d7b2a0f547c66812ec213386ec3a6bfa9063",
+      "size_bytes": 105962
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_05.mp3",
+      "sha256": "ef90c10b421c7f855da177a9ae3b742bffc80bd8a149c077150362937246c4e0",
+      "size_bytes": 93005
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_06.mp3",
+      "sha256": "ad5fa14e4b86771648dc11b76bab30d7eaf16f44f9b1297d8beefe8f5ef6203f",
+      "size_bytes": 113485
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_07.mp3",
+      "sha256": "4c73e26fda1881cede8d2921d3c9aa72673db5b5f81be5b8efea0eb98aec8e53",
+      "size_bytes": 110977
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_08.mp3",
+      "sha256": "034f7137f8a78d09ff9538eecdbe436ce930fa4749ba9346c6063be126faf632",
+      "size_bytes": 127696
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_09.mp3",
+      "sha256": "6aad48560534024d47fd2c2fac10e0461e194ca188b3741a0d815a0d40718b27",
+      "size_bytes": 121426
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_testfahrt/hud_10.mp3",
+      "sha256": "f9a0d7b06d872af3391b7604f51cdd567ed93c2624344cb10a9274927da5a9c2",
+      "size_bytes": 122680
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_verzurren/hud_01.mp3",
+      "sha256": "5e6ec7a1a1fb2556a3cf786c1af22f0dd02a57dc21e37dcebfa4a24749334584",
+      "size_bytes": 98021
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_verzurren/hud_02.mp3",
+      "sha256": "4517e8d4a3637644e20b261b1a08e933711a0dbf069f3ac50840b19461ad567a",
+      "size_bytes": 107216
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_verzurren/hud_03.mp3",
+      "sha256": "b778a32eb8576aed72d09dfdf295c6f5c20b8404b057544284eff664affbdb47",
+      "size_bytes": 109723
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_verzurren/hud_04.mp3",
+      "sha256": "fd3b18e775da0f2430a8c24894d0161974c95cf352aeaf0d07f79bc881cccf13",
+      "size_bytes": 104708
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_verzurren/hud_05.mp3",
+      "sha256": "cff5ca0707ced184e2a6e3aced84d679689649cd8b1336659168a463a234929b",
+      "size_bytes": 100946
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_verzurren/hud_06.mp3",
+      "sha256": "d8a9203633e7026a748dbd8bf842fd8ed7016c3335e310d6f08218419ed3b3d6",
+      "size_bytes": 108470
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_verzurren/hud_07.mp3",
+      "sha256": "57620d0ff52ed1e531b63ae0a31f18c9db6f53836ba19b4bb4c17d419284f569",
+      "size_bytes": 102200
+    },
+    {
+      "path": "audio/ladungssicherung/helmut_verzurren/hud_08.mp3",
+      "sha256": "a1293b66f692c86f02db4b549bc10f5fc807bed3b1a634c6acc79971a62831e1",
+      "size_bytes": 121426
+    },
+    {
+      "path": "audio/ladungssicherung/tutorial_beladen_de.mp3",
+      "sha256": "d9f5027dd153f70298b0d6f58ae3b43ac54aef9958d036b699f3ac4e97fe66a0",
+      "size_bytes": 199167
+    },
+    {
+      "path": "audio/ladungssicherung/tutorial_testfahrt_de.mp3",
+      "sha256": "94073cdf10449347df3580c9560e4b04fb0682444ecea52a981182239cb30ace",
+      "size_bytes": 192897
+    },
+    {
+      "path": "audio/ladungssicherung/tutorial_verzurren_de.mp3",
+      "sha256": "8886bef1aa3b251b4742a3d5c684d64c21405665a73b52175771430e92ca742f",
+      "size_bytes": 182866
+    },
+    {
+      "path": "audio/ladungssicherung/welcome_de.mp3",
+      "sha256": "5464a7aa8542f7ff0da700d9c41805195957eef05d31d00341c23aa0ee010076",
+      "size_bytes": 209616
+    }
+  ]
+}

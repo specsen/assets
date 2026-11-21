@@ -1,0 +1,57 @@
+{
+  "version": "V34.711",
+  "phase": "testfahrt",
+  "source": "ElevenLabs local MP3 files",
+  "mapping": [
+    {
+      "index": 1,
+      "hud_title": "Aktuelle Aufgabe",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_01.mp3"
+    },
+    {
+      "index": 2,
+      "hud_title": "Die vier Fahrmanöver",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_02.mp3"
+    },
+    {
+      "index": 3,
+      "hud_title": "Geschwindigkeit",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_03.mp3"
+    },
+    {
+      "index": 4,
+      "hud_title": "G-Kräfte und Belastung",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_04.mp3"
+    },
+    {
+      "index": 5,
+      "hud_title": "Auflieger in Draufsicht",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_05.mp3"
+    },
+    {
+      "index": 6,
+      "hud_title": "Ladungsstatus",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_06.mp3"
+    },
+    {
+      "index": 7,
+      "hud_title": "Kamera wechseln",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_07.mp3"
+    },
+    {
+      "index": 8,
+      "hud_title": "Wiedergabe steuern",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_08.mp3"
+    },
+    {
+      "index": 9,
+      "hud_title": "Auswertung ansehen",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_09.mp3"
+    },
+    {
+      "index": 10,
+      "hud_title": "Testfahrt starten",
+      "audio": "app/audio/ladungssicherung/helmut_testfahrt/hud_10.mp3"
+    }
+  ]
+}

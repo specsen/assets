@@ -1,0 +1,97 @@
+{
+  "version": "V34.713",
+  "description": "Zehn zusätzliche Helmut-Spielbegleitungsaufnahmen (3 aus V34.712 plus 7 neue), getrennt von den 32 HUD- und 4 Einleitungsaufnahmen.",
+  "mapping_status": "VORLÄUFIG. Die Dateien enthalten keine Transkription oder aussagekräftigen Sprach-Tags; die Trigger-Zuordnung erfolgt technisch und MUSS vor produktiver Verwendung inhaltlich angehört/bestätigt werden.",
+  "playback": "Fertige MP3s via GitHub, vorgeladen, eine gleichzeitige Begleitstimme, Gameplay löst Phasenstimme ab, HUD-Tutorial hat Vorrang, ESC/Phasenwechsel/Tabwechsel stoppt.",
+  "existing_v34712": [
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_01.mp3",
+      "original_file": "ElevenLabs_2026-11-21T11_44_41_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "phase": "loading",
+      "trigger": "Beladen / nach abgeschlossener HUD-Einweisung",
+      "seconds": 5.486,
+      "sha256": "41311738465c689afdc2c61d38718c45b7f98f3d693e79e49bab0e2663d39fe3"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_02.mp3",
+      "original_file": "ElevenLabs_2026-11-21T11_45_02_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "phase": "lashing",
+      "trigger": "Verzurren / nach abgeschlossener HUD-Einweisung",
+      "seconds": 8.673,
+      "sha256": "334414c065c44f11a8b6880e6d997e8bb0648b61fa099c1c50d731b61202986a"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_03.mp3",
+      "original_file": "ElevenLabs_2026-11-21T11_56_25_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "phase": "drive",
+      "trigger": "Testfahrt / nach abgeschlossener HUD-Einweisung",
+      "seconds": 8.124,
+      "sha256": "fb797db5b1e4a66d5eca501d3dd9c42edf78597a19bcd3a576d54763ee0f1f18"
+    }
+  ],
+  "new_v34713": [
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_04.mp3",
+      "original_file": "ElevenLabs_2026-11-21T12_03_12_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "event_key": "firstCargo",
+      "trigger": "Erste Ladeeinheit erfolgreich platziert",
+      "phase": 1,
+      "duration_seconds": 8.124,
+      "sha256": "e2b79e2eaeb6892c08c2d4bb80bd60d5ad404037581dce317bd39d96c93e6f7a"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_05.mp3",
+      "original_file": "ElevenLabs_2026-11-21T12_03_37_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "event_key": "firstStrap",
+      "trigger": "Ersten Zurrgurt erfolgreich angebracht",
+      "phase": 2,
+      "duration_seconds": 8.281,
+      "sha256": "f25b2f461a6d24696cf289e70ac02162fcd6c7392ef28c47c7cebaea0febe471"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_06.mp3",
+      "original_file": "ElevenLabs_2026-11-21T12_05_10_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "event_key": "driveAnfahren",
+      "trigger": "Anfahren: Manöver tatsächlich gestartet",
+      "phase": 3,
+      "duration_seconds": 7.889,
+      "sha256": "c1a31428750b6059253fdee0974ccb969c8397f3fddb364849e394ebe1040296"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_07.mp3",
+      "original_file": "ElevenLabs_2026-11-21T12_05_50_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "event_key": "driveBremsung",
+      "trigger": "Vollbremsung: Manöver tatsächlich gestartet",
+      "phase": 3,
+      "duration_seconds": 8.202,
+      "sha256": "ba519d0e551908a471552b3aa319e1499bc538a2ce257436f66300282e4147e4"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_08.mp3",
+      "original_file": "ElevenLabs_2026-11-21T12_06_06_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "event_key": "driveKurve",
+      "trigger": "Kurvenfahrt: Manöver tatsächlich gestartet",
+      "phase": 3,
+      "duration_seconds": 6.348,
+      "sha256": "fa9ad6c84f75064849f96ff954efdff6e53452f7a964baa8093709f171d5e600"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_09.mp3",
+      "original_file": "ElevenLabs_2026-11-21T12_11_18_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "event_key": "driveAusweichen",
+      "trigger": "Ausweichen: Manöver tatsächlich gestartet",
+      "phase": 3,
+      "duration_seconds": 6.922,
+      "sha256": "abf6ee359abed2b9f13c076f8e8b36c63fa07396cd3064b1da52a283a283bfa5"
+    },
+    {
+      "file": "audio/ladungssicherung/helmut_spielbegleitung/aufnahme_10.mp3",
+      "original_file": "ElevenLabs_2026-11-21T12_11_41_Helmut - Distinctive and Authentic_pvc_s50_sim75_v4.mp3",
+      "event_key": "driveErgebnis",
+      "trigger": "Alle vier Manöver abgeschlossen; Gesamtauswertung geöffnet",
+      "phase": 3,
+      "duration_seconds": 7.393,
+      "sha256": "d513224b516976744db4ff911b19075db8a8847ac2a9c70c2f735273f3318fa0"
+    }
+  ]
+}
