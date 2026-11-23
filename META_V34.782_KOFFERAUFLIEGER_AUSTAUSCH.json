@@ -1,0 +1,12 @@
+{
+  "version": "V34.782",
+  "operation": "box trailer model replacement",
+  "target_repo": "specsen/assets",
+  "target_branch": "main",
+  "target_path": "models/vehicles/scania_s730_mit_kofferauflieger_rhenus_automotive_v34649.glb",
+  "source_file": "scania_s730_mit_kofferauflieger_rhenus_automotive_v34649.glb",
+  "bytes": 126257312,
+  "sha256": "a2208a15d7f904c638d1aca2361b85e414ceb3c49ab65d6c4a8c22ce30b75156",
+  "zoho_code_change_required": false,
+  "based_on_zoho_code": "RHENUS-V34.781-ZOHO-OHNE-LOKALE-SOUNDS.zip"
+}

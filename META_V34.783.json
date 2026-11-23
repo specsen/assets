@@ -1,0 +1,22 @@
+{
+  "version": "V34.783",
+  "base_zoho": "V34.781",
+  "asset_path": "models/vehicles/scania_s730_mit_kofferauflieger_rhenus_automotive_v34649.glb",
+  "source_file": "Scania_S730_RHENUS_Kofferauflieger_Unter_100MB_Verlustfrei.glb",
+  "size_bytes": 98973948,
+  "sha256": "7396d1f1e317a2db1a4d68c35b3c7db7bda5ea26c6c41430c670ca8208ff4d9a",
+  "note": "GitHub asset replacement; do not upload this ZIP to Zoho Creator",
+  "extensions_used": [
+    "EXT_texture_webp"
+  ],
+  "before": {
+    "nodes": 1873,
+    "meshes": 1853,
+    "materials": 109
+  },
+  "after": {
+    "nodes": 465,
+    "meshes": 446,
+    "materials": 92
+  }
+}
