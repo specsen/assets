@@ -1,0 +1,32 @@
+{
+  "base_version": "V34.780",
+  "target_version": "V34.781",
+  "asset_root": "https://raw.githubusercontent.com/specsen/assets/main/audio/ladungssicherung/",
+  "files": [
+    {
+      "path": "audio/ladungssicherung/aufnahme_11.mp3",
+      "bytes": 203346,
+      "sha256": "d9b47db080359921a1f611b3d139eb44bd79810517c420011a6de42e5385c88f"
+    },
+    {
+      "path": "audio/ladungssicherung/aufnahme_12.mp3",
+      "bytes": 241381,
+      "sha256": "e64c917e888673bf97dd82352722fd2c1bbbc45db82db1434a68a967e7a37f2a"
+    },
+    {
+      "path": "audio/ladungssicherung/aufnahme_13.mp3",
+      "bytes": 213377,
+      "sha256": "a52c13028a619ed2dfc61ab7e71fe7e5d46feb2ab0dff472a1511bdaf651831d"
+    },
+    {
+      "path": "audio/ladungssicherung/fahrzeugauswahl_de.mp3",
+      "bytes": 264786,
+      "sha256": "4163a531ae513f4f1a019867aba7d5e9ebe030da6b0cb0667ed169de52982f8c"
+    },
+    {
+      "path": "audio/ladungssicherung/uebergang_beladen_de.mp3",
+      "bytes": 78794,
+      "sha256": "723ae0f2b2ca486b737b3e0bdc1af78ae63a6e1234d24624a2ddfa1422f8040c"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "34.755",
+  "ready": {
+    "selection": true,
+    "transition": true,
+    "cargoAdvance": true,
+    "lashingAdvance": true,
+    "loadingSelect": true
+  },
+  "notes": "Neue ElevenLabs Helmut MP3s 11, 12, 13 direkt in der Zoho ZIP. Die Sprachtrigger sind an die jeweils sichtbaren Hinweise gekoppelt.",
+  "audio_files": {
+    "aufnahme_11.mp3": "Beladen: Zum Verzurren wechseln",
+    "aufnahme_12.mp3": "Verzurren: Zur Testfahrt wechseln",
+    "aufnahme_13.mp3": "Beladen: Ladung per Klick waehlen"
+  }
+}
