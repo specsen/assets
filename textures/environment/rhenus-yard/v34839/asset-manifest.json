@@ -1,0 +1,20 @@
+{
+  "version": "34.839",
+  "source": "RHENUS-V34.834-REFERENZ-AUSSCHNITT.jpg",
+  "engine": "Babylon.js WebGPU",
+  "projection": "V34.826 working equirectangular dome, 2 meshes unchanged",
+  "main_sector_deg": [
+    -42,
+    42
+  ],
+  "blend_sector_deg": [
+    42,
+    53
+  ],
+  "fallback": "textures/environment/rhenus-yard/v34826/werkshof-[8k|4k].jpg",
+  "assets": [
+    "werkshof-8k.jpg",
+    "werkshof-4k.jpg"
+  ],
+  "note": "2D photo reconstructed into a VR panorama; correct only near master camera direction; not a physically accurate 360 capture."
+}
