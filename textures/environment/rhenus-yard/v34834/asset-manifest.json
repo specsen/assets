@@ -1,0 +1,51 @@
+{
+  "version": "34.834",
+  "approved_master": "master-fotoreferenz-ohne-lkw.png",
+  "native_resolution": [
+    1619,
+    971
+  ],
+  "render_texture_resolution": [
+    4096,
+    2304
+  ],
+  "note": "3840/4k-like export is Lanczos upscale of approved source, not native captured detail",
+  "panels": [
+    {
+      "file": "yard-01-linke-zufahrt.jpg",
+      "width": 1024,
+      "height": 2304
+    },
+    {
+      "file": "yard-02-hauptgebaeude-logo.png",
+      "width": 2048,
+      "height": 2304
+    },
+    {
+      "file": "yard-03-hallen-zufahrt.png",
+      "width": 2048,
+      "height": 2304
+    },
+    {
+      "file": "yard-04-rechte-zufahrt.jpg",
+      "width": 1024,
+      "height": 2304
+    }
+  ],
+  "composition": "single front office from approved master, continuous main pair; two wing images contain only roadside context",
+  "hdri_usage": "reflection light only, never visible architecture",
+  "texture_paths": "textures/environment/rhenus-yard/v34834/",
+  "sha256": {
+    "RHENUS_SONNIG_SYNTHETISCH_2K_FALLBACK.hdr": "6228f592bb8e13263a8dd03ca73266ef18914aa6693f1600f7f4773533ac1422",
+    "RHENUS_SONNIG_SYNTHETISCH_4K.hdr": "fa74de59222c4591fdc6079578b6fdb25c4e940c2ca9187c88c8f7d4db7c98f5",
+    "asphalt-pbr-diff.jpg": "6505bebbee15f1765e880d6e1b1247e5e58edcb6f9023dbfec61c51d5c568d40",
+    "beton-pbr-diff.jpg": "952a0a29b7c9b258a4b979656332e1e437bb3d56c840fe7477f1a6beeda6c0d5",
+    "beton-pbr-normal.png": "9fef26e1da932b759f80a89c321144ea88c71e7c09f2b919e607341330a96feb",
+    "boden-weicher-uebergang.png": "a860c1f7d3c605281fb0117aaa495c36243017613473af0a3b516e0c2cc35057",
+    "master-fotoreferenz-ohne-lkw.png": "27c301730594504ecd74b796338a6aeda4a6b4f182b37b3628607b9bb309191a",
+    "yard-01-linke-zufahrt.jpg": "a3a9ff38d19bb2a93b46beb679fdbfc1a577dbd3631ce72c452a82c2baa97843",
+    "yard-02-hauptgebaeude-logo.png": "83923bbaa79767681db62b6886126e1e937cb21935d0add675e3e1f329d124a6",
+    "yard-03-hallen-zufahrt.png": "c2b20eebbc253ae8c887a4cd1f69c2401ef9a09fec88523f6ebb4d435a0b9e54",
+    "yard-04-rechte-zufahrt.jpg": "982757971df8637d41385dcc37572516f5026c9261fb3fbdb9f5e7af970c45b7"
+  }
+}
