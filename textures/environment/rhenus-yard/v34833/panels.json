@@ -1,0 +1,43 @@
+{
+  "reference": "approved photo-only scene, no baked-in vehicle",
+  "width": 1672,
+  "height": 941,
+  "panels": [
+    {
+      "file": "yard-01-entrance-left.jpg",
+      "source_x0": 0,
+      "source_x1": 420,
+      "uv0": 0.0,
+      "uv1": 0.9952380952380953,
+      "geom_x0": 0.0,
+      "geom_x1": 0.25
+    },
+    {
+      "file": "yard-02-glass-centre.jpg",
+      "source_x0": 416,
+      "source_x1": 838,
+      "uv0": 0.004739336492890996,
+      "uv1": 0.995260663507109,
+      "geom_x0": 0.25,
+      "geom_x1": 0.5
+    },
+    {
+      "file": "yard-03-warehouse.jpg",
+      "source_x0": 834,
+      "source_x1": 1256,
+      "uv0": 0.004739336492890996,
+      "uv1": 0.995260663507109,
+      "geom_x0": 0.5,
+      "geom_x1": 0.75
+    },
+    {
+      "file": "yard-04-gate-right.jpg",
+      "source_x0": 1252,
+      "source_x1": 1672,
+      "uv0": 0.004761904761904762,
+      "uv1": 1.0,
+      "geom_x0": 0.75,
+      "geom_x1": 1.0
+    }
+  ]
+}
