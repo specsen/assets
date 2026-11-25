@@ -1,0 +1,103 @@
+{
+  "version": "34.845",
+  "source": "V34.844 verified atlas, derived angular sectors",
+  "nativeResolutionWarning": "Original photographed textures have less true detail than 8K; dimensions alone do not create new detail.",
+  "angles": "Degrees relative to V34.837 facade coordinate, not to active camera",
+  "pitch": [
+    -40,
+    86
+  ],
+  "textureMapping": "V34.844 angular non-linear U and legacy V; exact join coordinates",
+  "files": {
+    "front": {
+      "degrees": [
+        -55,
+        55
+      ],
+      "8k": {
+        "size": [
+          8192,
+          4096
+        ],
+        "sha256": "ff8cd5bf23361f6e33319ac574600e742298317da1a4f53b6a17df2a8ac60a69"
+      },
+      "4k": {
+        "size": [
+          4096,
+          2048
+        ],
+        "sha256": "1fc14e105a5c2b4d3a46e11c8fb0968acf97b198d8c4a89f786495c365965edd"
+      }
+    },
+    "left": {
+      "degrees": [
+        -125,
+        -55
+      ],
+      "8k": {
+        "size": [
+          4096,
+          3072
+        ],
+        "sha256": "7196f4e32f10780286e00c122d4ae0dcd6d5b80475b96b82404f0d7268d5ddcb"
+      },
+      "4k": {
+        "size": [
+          2048,
+          1536
+        ],
+        "sha256": "53f51be1116af6a7927be6b583f470f484ed0a75825646f1ca8bcb0b4c6b6e50"
+      }
+    },
+    "right": {
+      "degrees": [
+        55,
+        125
+      ],
+      "8k": {
+        "size": [
+          4096,
+          3072
+        ],
+        "sha256": "1146f4fa243ed892f4c4024f703cfb589565c91fe947a529d11afa250a5e0a01"
+      },
+      "4k": {
+        "size": [
+          2048,
+          1536
+        ],
+        "sha256": "f8f136ffe33bf6dadbe0d3bfd43e222bc44f12a4a066a59338e2ea87118a3a99"
+      }
+    },
+    "rear": {
+      "degrees": [
+        125,
+        235
+      ],
+      "8k": {
+        "size": [
+          4096,
+          2048
+        ],
+        "sha256": "2ed07b57ac756c96a4178abf0f17c16e511b4ab500af42b6181545b4335fedcc"
+      },
+      "4k": {
+        "size": [
+          2048,
+          1024
+        ],
+        "sha256": "c8a6212847a1b9c56e2f448637863afb9f6f199d8ec84a21be1418f3d80e59c8"
+      }
+    }
+  },
+  "join_tests": {
+    "left-front": {
+      "MAE": 0.248,
+      "max": 7
+    },
+    "front-right": {
+      "MAE": 0.322,
+      "max": 12
+    }
+  }
+}
