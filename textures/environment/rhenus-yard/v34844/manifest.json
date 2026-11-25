@@ -1,0 +1,114 @@
+{
+  "version": "34.844",
+  "render_geometry": "V34.837 original photodome and photo-ground unchanged",
+  "atlas_mapping": "horizontal piecewise linear non-equirectangular",
+  "angle_stops_deg": [
+    -180.0,
+    -115.0,
+    -50.0,
+    50.0,
+    115.0,
+    180.0
+  ],
+  "u_stops": [
+    0.0,
+    0.05000000074505806,
+    0.15000000596046448,
+    0.8500000238418579,
+    0.949999988079071,
+    1.0
+  ],
+  "8k_pixels": [
+    8192,
+    4096
+  ],
+  "4k_pixels": [
+    4096,
+    2048
+  ],
+  "input_legacy": "v34826/werkshof-8k.jpg",
+  "input_logo": "v34841/werkshof-8k.jpg",
+  "quality_note": "The source photographs do not contain native 8K information. New front-density mapping preserves their location, not new photographic detail.",
+  "source_sha256": {
+    "legacy": "163709697fc163fa85ca2e77a0f2acd8ab4a4144c10e5a39dc547984ac8a651f",
+    "logo": "b84de309279177401a165bf19f8192cc153ae62819157de9c41c0c991c25531f"
+  },
+  "files": {
+    "werkshof-8k.jpg": {
+      "sha256": "157c050924e1cf7fbad9177851446b6e3696a7a85ad40b08f50241cedb736ea7",
+      "bytes": 4349899
+    },
+    "werkshof-4k.jpg": {
+      "sha256": "9ec455f83b28600dbe698ce20d83b87f0b52babebe5001cff995d535a0c80410",
+      "bytes": 1334651
+    }
+  },
+  "samples": [
+    {
+      "angle": -179,
+      "newU": 0.0007692307806932009,
+      "pixel": 6,
+      "max_abs_deviation_from_legacy": 0
+    },
+    {
+      "angle": -115,
+      "newU": 0.05000000074505806,
+      "pixel": 410,
+      "max_abs_deviation_from_legacy": 1
+    },
+    {
+      "angle": -80,
+      "newU": 0.10384615739950767,
+      "pixel": 851,
+      "max_abs_deviation_from_legacy": 1
+    },
+    {
+      "angle": -50,
+      "newU": 0.15000000596046448,
+      "pixel": 1229,
+      "max_abs_deviation_from_legacy": 1
+    },
+    {
+      "angle": -30,
+      "newU": 0.29000000953674315,
+      "pixel": 2375,
+      "max_abs_deviation_from_legacy": 5
+    },
+    {
+      "angle": 0,
+      "newU": 0.5000000149011612,
+      "pixel": 4096,
+      "max_abs_deviation_from_legacy": 3
+    },
+    {
+      "angle": 30,
+      "newU": 0.7100000202655792,
+      "pixel": 5816,
+      "max_abs_deviation_from_legacy": 11
+    },
+    {
+      "angle": 50,
+      "newU": 0.8500000238418579,
+      "pixel": 6962,
+      "max_abs_deviation_from_legacy": 2
+    },
+    {
+      "angle": 80,
+      "newU": 0.8961538534898025,
+      "pixel": 7340,
+      "max_abs_deviation_from_legacy": 1
+    },
+    {
+      "angle": 115,
+      "newU": 0.949999988079071,
+      "pixel": 7781,
+      "max_abs_deviation_from_legacy": 0
+    },
+    {
+      "angle": 179,
+      "newU": 0.9992307690473703,
+      "pixel": 8185,
+      "max_abs_deviation_from_legacy": 1
+    }
+  ]
+}
