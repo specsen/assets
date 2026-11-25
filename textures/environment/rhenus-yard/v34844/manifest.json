@@ -35,12 +35,12 @@
   },
   "files": {
     "werkshof-8k.jpg": {
-      "sha256": "24655b8e7afd87196d25249826d054d7baee8b85e2a09bd6e7cf8cdd9e5c4551",
-      "bytes": 4339328
+      "sha256": "d401dd670f592fe18b5843de0e7f49d8f73803b85a7f4eb26cc234023b4d8a0c",
+      "bytes": 4302572
     },
     "werkshof-4k.jpg": {
-      "sha256": "8380b4064af2571b07edf8be31e137dd5bc5efb739be6195f164658837893356",
-      "bytes": 1309677
+      "sha256": "4f6b31e17e5068646bdbda6b8eda74790c107a88621ce3986cc331fca67050e6",
+      "bytes": 1338060
     }
   },
   "samples": [
@@ -111,5 +111,5 @@
       "max_abs_deviation_from_legacy": 1
     }
   ],
-  "sharpening": "Front sector (u 0.10-0.90) enhanced with Real-ESRGAN x4plus; atlas mapping and file dimensions unchanged."
+  "sharpening": "V2: Front sector Real-ESRGAN x4plus (anisotropic), logo text re-rendered, side asphalt streaks removed. Atlas mapping and file dimensions unchanged."
 }
