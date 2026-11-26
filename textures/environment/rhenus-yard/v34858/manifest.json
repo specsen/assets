@@ -1,0 +1,178 @@
+{
+  "version": "34.858",
+  "source": "modernes_rhenus_automotive_logistikcampus_panorama.png",
+  "source_sha256": "9d67f5d022132b19b1f20aec425a8fdca448d83e3f37de4f3a9e175eb9d61fcb",
+  "nativeSize": [
+    2172,
+    724
+  ],
+  "projection": "angular band approximation; no independently generated views",
+  "coverageDegrees": 300,
+  "tiles": [
+    {
+      "name": "outer_left",
+      "sourceX": [
+        0,
+        434
+      ],
+      "yawRange": [
+        -150.0,
+        -90.05524861878453
+      ],
+      "tiers": {
+        "high": {
+          "file": "outer_left_high.png",
+          "size": [
+            466,
+            724
+          ],
+          "gutter": 16,
+          "uOffset": 0.034334763948497854,
+          "uScale": 0.9313304721030042
+        },
+        "fallback": {
+          "file": "outer_left_fallback.png",
+          "size": [
+            233,
+            362
+          ],
+          "gutter": 8,
+          "uOffset": 0.034334763948497854,
+          "uScale": 0.9313304721030042
+        }
+      }
+    },
+    {
+      "name": "left",
+      "sourceX": [
+        434,
+        868
+      ],
+      "yawRange": [
+        -90.05524861878453,
+        -30.110497237569067
+      ],
+      "tiers": {
+        "high": {
+          "file": "left_high.png",
+          "size": [
+            466,
+            724
+          ],
+          "gutter": 16,
+          "uOffset": 0.034334763948497854,
+          "uScale": 0.9313304721030042
+        },
+        "fallback": {
+          "file": "left_fallback.png",
+          "size": [
+            233,
+            362
+          ],
+          "gutter": 8,
+          "uOffset": 0.034334763948497854,
+          "uScale": 0.9313304721030042
+        }
+      }
+    },
+    {
+      "name": "center",
+      "sourceX": [
+        868,
+        1304
+      ],
+      "yawRange": [
+        -30.110497237569067,
+        30.110497237569067
+      ],
+      "tiers": {
+        "high": {
+          "file": "center_high.png",
+          "size": [
+            468,
+            724
+          ],
+          "gutter": 16,
+          "uOffset": 0.03418803418803419,
+          "uScale": 0.9316239316239316
+        },
+        "fallback": {
+          "file": "center_fallback.png",
+          "size": [
+            234,
+            362
+          ],
+          "gutter": 8,
+          "uOffset": 0.03418803418803419,
+          "uScale": 0.9316239316239316
+        }
+      }
+    },
+    {
+      "name": "right",
+      "sourceX": [
+        1304,
+        1738
+      ],
+      "yawRange": [
+        30.110497237569067,
+        90.05524861878453
+      ],
+      "tiers": {
+        "high": {
+          "file": "right_high.png",
+          "size": [
+            466,
+            724
+          ],
+          "gutter": 16,
+          "uOffset": 0.034334763948497854,
+          "uScale": 0.9313304721030042
+        },
+        "fallback": {
+          "file": "right_fallback.png",
+          "size": [
+            233,
+            362
+          ],
+          "gutter": 8,
+          "uOffset": 0.034334763948497854,
+          "uScale": 0.9313304721030042
+        }
+      }
+    },
+    {
+      "name": "outer_right",
+      "sourceX": [
+        1738,
+        2172
+      ],
+      "yawRange": [
+        90.05524861878453,
+        150.0
+      ],
+      "tiers": {
+        "high": {
+          "file": "outer_right_high.png",
+          "size": [
+            466,
+            724
+          ],
+          "gutter": 16,
+          "uOffset": 0.034334763948497854,
+          "uScale": 0.9313304721030042
+        },
+        "fallback": {
+          "file": "outer_right_fallback.png",
+          "size": [
+            233,
+            362
+          ],
+          "gutter": 8,
+          "uOffset": 0.034334763948497854,
+          "uScale": 0.9313304721030042
+        }
+      }
+    }
+  ]
+}
